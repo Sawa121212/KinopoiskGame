@@ -1,0 +1,156 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:avalonia="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:controls="clr-namespace:Game.Ui.Views.Controls"
+             xmlns:allControls="clr-namespace:Common.Ui.Behaviors.AllControls;assembly=Common.Ui"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Game.Ui.Views.Controls.ShowFilmControl">
+
+    <UserControl.Styles>
+        <Style Selector="Button.Focusable:focus">
+            <Setter Property="Background" Value="DeepSkyBlue" />
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+        </Style>
+    </UserControl.Styles>
+
+    <Panel>
+        <!-- Анимированный фон -->
+        <controls:SunburstBackground>
+            <controls:SunburstBackground.Styles>
+                <Style Selector="controls|SunburstBackground">
+                    <Style.Animations>
+                        <Animation Duration="0:2:0"
+                                   IterationCount="INFINITE">
+                            <KeyFrame Cue="0%">
+                                <Setter Property="RotateTransform.Angle" Value="0.0" />
+                            </KeyFrame>
+                            <KeyFrame Cue="100%">
+                                <Setter Property="RotateTransform.Angle" Value="90.0" />
+                            </KeyFrame>
+                        </Animation>
+                    </Style.Animations>
+                </Style>
+            </controls:SunburstBackground.Styles>
+        </controls:SunburstBackground>
+
+        <!-- Затемнение по краям -->
+        <!--<Rectangle>
+            <Rectangle.Fill>
+                <RadialGradientBrush Center="0.5,0.6" Radius="1.2">
+                    <GradientStop Color="#00000000" Offset="0.7" />
+                    <GradientStop Color="#20000000" Offset="0.9" />
+                    <GradientStop Color="#40000000" Offset="1" />
+                </RadialGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>-->
+
+        <Grid RowDefinitions="5*,1*,1*, Auto"
+              Margin="10">
+            <!-- Poster -->
+            <Viewbox Stretch="Uniform"
+                     Margin="5"
+                     Grid.Row="0">
+                <Image Source="{Binding PosterBitmap}" />
+            </Viewbox>
+
+            <!-- Film Name -->
+            <Viewbox Stretch="Uniform"
+                     Margin="15"
+                     Grid.Row="1">
+                <TextBlock Text="{Binding Film.Name}"
+                           Background="{DynamicResource MaterialPaperBrush}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center" />
+            </Viewbox>
+
+            <!-- Rating -->
+            <Viewbox Stretch="Uniform"
+                     Margin="5"
+                     Grid.Row="2">
+                <Grid>
+                    <!-- Rating -->
+                    <TextBlock Text="{Binding Film.Rating}"
+                               IsVisible="{Binding HasShowRating}"
+                               Background="{DynamicResource MaterialPaperBrush}"
+                               FontWeight="Bold"
+                               Foreground="Orange"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Margin="5">
+                        <Interaction.Behaviors>
+                            <DataTriggerBehavior Binding="{Binding Film.Rating}" ComparisonCondition="GreaterThanOrEqual" Value="8.0">
+                                <ChangePropertyAction PropertyName="Foreground" Value="Green" />
+                            </DataTriggerBehavior>
+                            <DataTriggerBehavior Binding="{Binding Film.Rating}" ComparisonCondition="LessThanOrEqual" Value="4.0">
+                                <ChangePropertyAction PropertyName="Foreground" Value="Red" />
+                            </DataTriggerBehavior>
+                        </Interaction.Behaviors>
+                    </TextBlock>
+
+                    <!-- Star -->
+                    <Button IsVisible="{Binding !HasShowRating}"
+                            Command="{Binding ShowRatingCommand}"
+                            Classes="Flat"
+                            BorderThickness="1"
+                            BorderBrush="Goldenrod">
+                        <!-- Background="{DynamicResource MaterialPaperBrush}" -->
+
+                        <Button.Content>
+                            <avalonia:MaterialIcon Kind="Star" />
+                        </Button.Content>
+
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="{DynamicResource MaterialPaperBrush}" />
+                                <Style.Animations>
+                                    <Animation Duration="0:0:3"
+                                               IterationCount="INFINITE">
+                                        <KeyFrame Cue="0%">
+                                            <Setter Property="Foreground" Value="Red" />
+                                        </KeyFrame>
+                                        <KeyFrame Cue="16%">
+                                            <Setter Property="Foreground" Value="Orange" />
+                                            <Setter Property="BorderBrush" Value="Orange" />
+                                        </KeyFrame>
+                                        <KeyFrame Cue="49%">
+                                            <Setter Property="Foreground" Value="Green" />
+                                            <Setter Property="BorderBrush" Value="Green" />
+                                        </KeyFrame>
+                                        <KeyFrame Cue="82%">
+                                            <Setter Property="Foreground" Value="Red" />
+                                            <Setter Property="BorderBrush" Value="Red" />
+                                        </KeyFrame>
+                                        <KeyFrame Cue="100%">
+                                            <Setter Property="Foreground" Value="Red" />
+                                        </KeyFrame>
+                                    </Animation>
+                                </Style.Animations>
+                            </Style>
+                            <Style Selector="Button:focus">
+                                <Setter Property="Background" Value="Orange" />
+                            </Style>
+                        </Button.Styles>
+
+                        <Interaction.Behaviors>
+                            <allControls:ControlFocusAutoInitializedBehavior />
+                        </Interaction.Behaviors>
+                    </Button>
+
+                </Grid>
+            </Viewbox>
+
+            <Button Content="Дальше"
+                    IsVisible="{Binding HasShowRating}"
+                    Command="{Binding ShowNextFilmCommand}"
+                    Classes="Focusable"
+                    Grid.Row="3">
+                <Interaction.Behaviors>
+                    <allControls:ControlFocusAutoInitializedBehavior />
+                </Interaction.Behaviors>
+            </Button>
+        </Grid>
+    </Panel>
+
+</UserControl>

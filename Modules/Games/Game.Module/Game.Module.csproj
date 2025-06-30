@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Avalonia" Version="8.1.97.11073" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Infrastructure.Interfaces\Game.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Game.Infrastructure\Game.Infrastructure.csproj" />
+    <ProjectReference Include="..\Game.Ui\Game.Ui.csproj" />
+  </ItemGroup>
+
+</Project>

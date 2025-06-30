@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 503,
+    "name": "Парни что надо",
+    "alternativeName": "The Right Stuff",
+    "year": 1983,
+    "rating": {
+      "kp": 6.947
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/0901aefc-9290-4d1d-a96d-8506db91b57c/orig"
+    }
+  },
+  {
+    "id": 509,
+    "name": "Харви",
+    "alternativeName": "Harvey",
+    "year": 1950,
+    "rating": {
+      "kp": 7.644
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/6846be12-e477-410d-bab3-22474daf23eb/orig"
+    }
+  },
+  {
+    "id": 502,
+    "name": "12 обезьян",
+    "alternativeName": "Twelve Monkeys",
+    "year": 1995,
+    "rating": {
+      "kp": 7.797
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/9156c8ee-f5c5-41f0-b38c-9687104ac943/orig"
+    }
+  },
+  {
+    "id": 500,
+    "name": "Собачий полдень",
+    "alternativeName": "Dog Day Afternoon",
+    "year": 1975,
+    "rating": {
+      "kp": 7.666
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/c3963b39-f546-4e78-bf56-4c490cf778ab/orig"
+    }
+  },
+  {
+    "id": 512,
+    "name": "Быть или не быть",
+    "alternativeName": "To Be or Not to Be",
+    "year": 1942,
+    "rating": {
+      "kp": 7.779
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/f5720e4b-849d-4389-8a83-5632b07f0750/orig"
+    }
+  },
+  {
+    "id": 499,
+    "name": "Траффик",
+    "alternativeName": "Traffic",
+    "year": 2000,
+    "rating": {
+      "kp": 7.159
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/2d12b502-54b6-4ad6-92bf-7d78b31ae460/orig"
+    }
+  },
+  {
+    "id": 511,
+    "name": "Эд Вуд",
+    "alternativeName": "Ed Wood",
+    "year": 1994,
+    "rating": {
+      "kp": 7.577
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/6d21f349-5f3f-4300-b030-bef9bc040121/orig"
+    }
+  },
+  {
+    "id": 510,
+    "name": "Четыреста ударов",
+    "alternativeName": "Les quatre cents coups",
+    "year": 1959,
+    "rating": {
+      "kp": 8.065
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10809116/2a4ce77e-2ac8-43e2-97ec-6aaf1b5b7e12/orig"
+    }
+  },
+  {
+    "id": 506,
+    "name": "Полуночный ковбой",
+    "alternativeName": "Midnight Cowboy",
+    "year": 1969,
+    "rating": {
+      "kp": 7.705
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/af030140-db86-451a-8bc7-6991754654a2/orig"
+    }
+  },
+  {
+    "id": 508,
+    "name": "Земляничная поляна",
+    "alternativeName": "Smultronstället",
+    "year": 1957,
+    "rating": {
+      "kp": 8.021
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/a740a845-db2b-461d-9a52-60559a481bf5/orig"
+    }
+  },
+  {
+    "id": 507,
+    "name": "Терминатор",
+    "alternativeName": "The Terminator",
+    "year": 1984,
+    "rating": {
+      "kp": 7.982
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/537869cd-5fb8-4993-af4c-c5f6a30e61ba/orig"
+    }
+  },
+  {
+    "id": 501,
+    "name": "Три цвета: Красный",
+    "alternativeName": "Trois couleurs : Rouge",
+    "year": 1994,
+    "rating": {
+      "kp": 7.857
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/db352b98-b29a-4e48-96e1-fcbba874fc07/orig"
+    }
+  },
+  {
+    "id": 513,
+    "name": "Ганди",
+    "alternativeName": "Gandhi",
+    "year": 1982,
+    "rating": {
+      "kp": 8.051
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/bad5d424-8745-4ad6-830e-89058b504049/orig"
+    }
+  },
+  {
+    "id": 504,
+    "name": "Тень сомнения",
+    "alternativeName": "Shadow of a Doubt",
+    "year": 1942,
+    "rating": {
+      "kp": 7.426
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10703959/d8aaf938-481c-444b-b1a7-87ae97562430/orig"
+    }
+  },
+  {
+    "id": 505,
+    "name": "Убийство",
+    "alternativeName": "The Killing",
+    "year": 1956,
+    "rating": {
+      "kp": 7.643
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/4a3c19c6-e7d9-4c3c-b274-67e2b2ed0e70/orig"
+    }
+  },
+  {
+    "id": 515,
+    "name": "На игле",
+    "alternativeName": "Trainspotting",
+    "year": 1995,
+    "rating": {
+      "kp": 7.959
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1777765/f47dc447-7360-43a4-aa05-5ac408203f5e/orig"
+    }
+  },
+  {
+    "id": 516,
+    "name": "Бонни и Клайд",
+    "alternativeName": "Bonnie and Clyde",
+    "year": 1967,
+    "rating": {
+      "kp": 7.697
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/270cdbf7-4ff7-4b1f-bca0-69950222668f/orig"
+    }
+  },
+  {
+    "id": 522,
+    "name": "Карты, деньги, два ствола",
+    "alternativeName": "Lock, Stock and Two Smoking Barrels",
+    "year": 1998,
+    "rating": {
+      "kp": 8.559
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/6492653f-11d5-4087-a1d2-ec7a74f161d3/orig"
+    }
+  },
+  {
+    "id": 519,
+    "name": "Человек дождя",
+    "alternativeName": "Rain Man",
+    "year": 1988,
+    "rating": {
+      "kp": 8.238
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/74259ac0-8003-4282-b0c9-ffe915ccd6fb/orig"
+    }
+  },
+  {
+    "id": 518,
+    "name": "Это – Spinal Tap",
+    "alternativeName": "This Is Spinal Tap",
+    "year": 1984,
+    "rating": {
+      "kp": 6.85
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/dd2d38e0-511c-432b-903f-623a172351ae/orig"
+    }
+  },
+  {
+    "id": 523,
+    "name": "Перекресток Миллера",
+    "alternativeName": "Miller's Crossing",
+    "year": 1990,
+    "rating": {
+      "kp": 7.576
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/e5222bd4-bc6d-4370-bd1a-e33f3f5668ee/orig"
+    }
+  },
+  {
+    "id": 524,
+    "name": "Дилижанс",
+    "alternativeName": "Stagecoach",
+    "year": 1939,
+    "rating": {
+      "kp": 7.436
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/4c1a9226-b32d-41d9-8de0-d3ee64329b2c/orig"
+    }
+  },
+  {
+    "id": 525,
+    "name": "Генрих V: Битва при Азенкуре",
+    "alternativeName": "Henry V",
+    "year": 1989,
+    "rating": {
+      "kp": 7.094
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/c736679d-bd5b-4052-a443-bb438f3279d2/orig"
+    }
+  },
+  {
+    "id": 517,
+    "name": "Всё о моей матери",
+    "alternativeName": "Todo sobre mi madre",
+    "year": 1999,
+    "rating": {
+      "kp": 7.774
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/c3d4a829-613c-43ab-85ee-4674bdc27417/orig"
+    }
+  },
+  {
+    "id": 528,
+    "name": "Лора",
+    "alternativeName": "Laura",
+    "year": 1944,
+    "rating": {
+      "kp": 7.381
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/b401369e-46b6-494c-97d2-6a0b2b6ef78e/orig"
+    }
+  },
+  {
+    "id": 520,
+    "name": "Телесеть",
+    "alternativeName": "Network",
+    "year": 1976,
+    "rating": {
+      "kp": 7.69
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/fc24f338-9074-4b62-a01b-ba20c7be6311/orig"
+    }
+  },
+  {
+    "id": 514,
+    "name": "Лев зимой",
+    "alternativeName": "The Lion in Winter",
+    "year": 1968,
+    "rating": {
+      "kp": 7.729
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/685f1639-76cb-47a5-909e-fc792a571b7c/orig"
+    }
+  },
+  {
+    "id": 521,
+    "name": "Носферату, симфония ужаса",
+    "alternativeName": "Nosferatu, eine Symphonie des Grauens",
+    "year": 1922,
+    "rating": {
+      "kp": 7.616
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/e951ebfd-073a-4b0c-8b41-17d6db97e997/orig"
+    }
+  },
+  {
+    "id": 529,
+    "name": "39 ступеней",
+    "alternativeName": "The 39 Steps",
+    "year": 1935,
+    "rating": {
+      "kp": 7.352
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/50cd39f6-9304-43de-83d4-19f2bea7413e/orig"
+    }
+  },
+  {
+    "id": 527,
+    "name": "День сурка",
+    "alternativeName": "Groundhog Day",
+    "year": 1993,
+    "rating": {
+      "kp": 8.139
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/ed4f90cb-188b-4cac-a41a-c175ff9b9e48/orig"
+    }
+  },
+  {
+    "id": 526,
+    "name": "Большой куш",
+    "alternativeName": "Snatch",
+    "year": 2000,
+    "rating": {
+      "kp": 8.555
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/47fe48f6-ff17-4411-a12f-d337bea2639d/orig"
+    }
+  },
+  {
+    "id": 531,
+    "name": "Дорога",
+    "alternativeName": "La strada",
+    "year": 1954,
+    "rating": {
+      "kp": 8.003
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/cf7a4d92-75d5-47a8-bc75-396fafe282f8/orig"
+    }
+  },
+  {
+    "id": 535,
+    "name": "8 с половиной",
+    "alternativeName": "8½",
+    "year": 1963,
+    "rating": {
+      "kp": 7.966
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/0ce35b23-02c5-4636-a32a-d3e820aaafef/orig"
+    }
+  },
+  {
+    "id": 536,
+    "name": "Фантазия",
+    "alternativeName": "Fantasia",
+    "year": 1940,
+    "rating": {
+      "kp": 7.674
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/41fdf2c0-9f9d-4f6c-a3e2-23d555bdb9e4/orig"
+    }
+  },
+  {
+    "id": 539,
+    "name": "Умница Уилл Хантинг",
+    "alternativeName": "Good Will Hunting",
+    "year": 1997,
+    "rating": {
+      "kp": 8.089
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/1148b4c7-be22-45ca-bd0c-a4c1f461f0c7/orig"
+    }
+  },
+  {
+    "id": 541,
+    "name": "Будучи там",
+    "alternativeName": "Being There",
+    "year": 1979,
+    "rating": {
+      "kp": 7.653
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/21e00697-6f18-4cfb-b19c-d1de7e5e8027/orig"
+    }
+  },
+  {
+    "id": 537,
+    "name": "Военно-полевой госпиталь",
+    "alternativeName": "MASH",
+    "year": 1969,
+    "rating": {
+      "kp": 7.321
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4483445/4b0c3b74-d05a-4e30-9628-c5325ffdff93/orig"
+    }
+  },
+  {
+    "id": 540,
+    "name": "Красавица и чудовище",
+    "alternativeName": "Beauty and the Beast",
+    "year": 1991,
+    "rating": {
+      "kp": 8.269
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/ed078f6d-65a8-4c2c-a8df-aba6383b841f/orig"
+    }
+  },
+  {
+    "id": 542,
+    "name": "Планета обезьян",
+    "alternativeName": "Planet of the Apes",
+    "year": 1967,
+    "rating": {
+      "kp": 7.696
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/e8258a92-26a5-48e6-b4a0-a1b905998a26/orig"
+    }
+  },
+  {
+    "id": 530,
+    "name": "Игры разума",
+    "alternativeName": "A Beautiful Mind",
+    "year": 2001,
+    "rating": {
+      "kp": 8.54
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/80f21137-eebb-4cdc-8124-96c68c07c2a8/orig"
+    }
+  },
+  {
+    "id": 543,
+    "name": "Клерки",
+    "alternativeName": "Clerks",
+    "year": 1994,
+    "rating": {
+      "kp": 7.726
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1777765/cb253cb5-addb-42e9-b311-0294944e7dd4/orig"
+    }
+  },
+  {
+    "id": 532,
+    "name": "Наёмный убийца",
+    "alternativeName": "Dip huet seung hung",
+    "year": 1989,
+    "rating": {
+      "kp": 7.745
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/3aabcbf6-32ed-46e0-b5b2-516ac21b36bd/orig"
+    }
+  },
+  {
+    "id": 545,
+    "name": "Рио Браво",
+    "alternativeName": "Rio Bravo",
+    "year": 1958,
+    "rating": {
+      "kp": 7.506
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/70556704-0fb6-4555-8202-22cb25139e98/orig"
+    }
+  },
+  {
+    "id": 533,
+    "name": "Неприкасаемые",
+    "alternativeName": "The Untouchables",
+    "year": 1987,
+    "rating": {
+      "kp": 7.788
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/ae8d11fe-2205-4328-a5d3-1c45d10ce1b8/orig"
+    }
+  },
+  {
+    "id": 538,
+    "name": "Стальной гигант",
+    "alternativeName": "The Iron Giant",
+    "year": 1999,
+    "rating": {
+      "kp": 8.123
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/c1e64d5a-0c45-4eef-9395-95d2dd12eeb0/orig"
+    }
+  },
+  {
+    "id": 546,
+    "name": "О, где же ты, брат?",
+    "alternativeName": "O Brother, Where Art Thou?",
+    "year": 2000,
+    "rating": {
+      "kp": 7.331
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/ea64cdb1-2cc4-4fd3-b0fa-63512dc270f5/orig"
+    }
+  },
+  {
+    "id": 548,
+    "name": "Проклятый путь",
+    "alternativeName": "Road to Perdition",
+    "year": 2002,
+    "rating": {
+      "kp": 7.632
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/e939f7fe-7c8c-4537-84f5-be85531f594d/orig"
+    }
+  },
+  {
+    "id": 551,
+    "name": "Белоснежка и семь гномов",
+    "alternativeName": "Snow White and the Seven Dwarfs",
+    "year": 1937,
+    "rating": {
+      "kp": 7.933
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/23fff4a5-a498-4be8-b7d6-e833ccc84945/orig"
+    }
+  },
+  {
+    "id": 553,
+    "name": "Тонкий человек",
+    "alternativeName": "The Thin Man",
+    "year": 1934,
+    "rating": {
+      "kp": 7.141
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4716873/d8572a9b-a3e9-4b0c-89a1-3d37da5c26b7/orig"
+    }
+  },
+  {
+    "id": 549,
+    "name": "Тихий человек",
+    "alternativeName": "The Quiet Man",
+    "year": 1952,
+    "rating": {
+      "kp": 6.824
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/afd4cc2c-22fe-4588-8975-4dcb67104ea6/orig"
+    }
+  },
+  {
+    "id": 556,
+    "name": "Красная река",
+    "alternativeName": "Red River",
+    "year": 1947,
+    "rating": {
+      "kp": 7.279
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/687eb47a-9c55-480d-95de-823b684cc417/orig"
+    }
+  },
+  {
+    "id": 554,
+    "name": "Человек, которого не было",
+    "alternativeName": "The Man Who Wasn't There",
+    "year": 2001,
+    "rating": {
+      "kp": 7.585
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/31a6f645-f136-4a9b-9d02-09c12744cf33/orig"
+    }
+  },
+  {
+    "id": 544,
+    "name": "Инопланетянин",
+    "alternativeName": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "rating": {
+      "kp": 7.788
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/df360301-084a-4eec-90ab-7954b143de18/orig"
+    }
+  },
+  {
+    "id": 552,
+    "name": "Близкие контакты третьей степени",
+    "alternativeName": "Close Encounters of the Third Kind",
+    "year": 1977,
+    "rating": {
+      "kp": 7.159
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10592371/a79f9bc4-9f22-4dc7-8699-877a3d778ae4/orig"
+    }
+  },
+  {
+    "id": 560,
+    "name": "Жан де Флоретт",
+    "alternativeName": "Jean de Florette",
+    "year": 1986,
+    "rating": {
+      "kp": 7.904
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/3caa64f5-3738-4074-9d01-5da02a444a2a/orig"
+    }
+  },
+  {
+    "id": 555,
+    "name": "Большой Лебовски",
+    "alternativeName": "The Big Lebowski",
+    "year": 1998,
+    "rating": {
+      "kp": 7.81
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/86be967f-598d-46f2-bc59-bc222e2ca837/orig"
+    }
+  },
+  {
+    "id": 534,
+    "name": "Кинг Конг",
+    "alternativeName": "King Kong",
+    "year": 1933,
+    "rating": {
+      "kp": 7.088
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/2f75d997-f265-4d75-a3ce-53b24ecf9018/orig"
+    }
+  },
+  {
+    "id": 557,
+    "name": "Призрачный мир",
+    "alternativeName": "Ghost World",
+    "year": 2001,
+    "rating": {
+      "kp": 7.116
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/d3068bcb-f09e-4d9a-8c14-40b10edd04ab/orig"
+    }
+  },
+  {
+    "id": 550,
+    "name": "Избавление",
+    "alternativeName": "Deliverance",
+    "year": 1972,
+    "rating": {
+      "kp": 7.242
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/b48f0781-b21e-470c-9e0b-53fee8fde1c9/orig"
+    }
+  },
+  {
+    "id": 562,
+    "name": "Человек, который хотел быть королем",
+    "alternativeName": "The Man Who Would Be King",
+    "year": 1975,
+    "rating": {
+      "kp": 7.769
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/94d22418-57f8-4789-b247-377f585b9403/orig"
+    }
+  },
+  {
+    "id": 561,
+    "name": "Славное будущее",
+    "alternativeName": "The Sweet Hereafter",
+    "year": 1997,
+    "rating": {
+      "kp": 6.957
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/9d624c3b-240e-46a8-b040-8001917b1e2d/orig"
+    }
+  },
+  {
+    "id": 564,
+    "name": "Человек на все времена",
+    "alternativeName": "A Man for All Seasons",
+    "year": 1966,
+    "rating": {
+      "kp": 7.362
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/7529aa61-aa6f-4838-938b-66e185a930a0/orig"
+    }
+  },
+  {
+    "id": 563,
+    "name": "Отныне и во веки веков",
+    "alternativeName": "From Here to Eternity",
+    "year": 1953,
+    "rating": {
+      "kp": 7.155
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/30175dd1-b462-49bd-8b95-52e281bccfce/orig"
+    }
+  },
+  {
+    "id": 547,
+    "name": "Полуночная жара",
+    "alternativeName": "In the Heat of the Night",
+    "year": 1967,
+    "rating": {
+      "kp": 7.589
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/9c9bce5b-2b1d-48e1-88af-da6ad8c98c80/orig"
+    }
+  },
+  {
+    "id": 565,
+    "name": "Игра на вылет",
+    "alternativeName": "Sleuth",
+    "year": 1972,
+    "rating": {
+      "kp": 7.929
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/ddeb4242-0caa-4363-94f8-715ec622c4b1/orig"
+    }
+  },
+  {
+    "id": 567,
+    "name": "Французский связной",
+    "alternativeName": "The French Connection",
+    "year": 1971,
+    "rating": {
+      "kp": 7.553
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/666bc89d-29c5-42f6-a02c-18dbe1ae205e/orig"
+    }
+  },
+  {
+    "id": 568,
+    "name": "Страсти Жанны д'Арк",
+    "alternativeName": "La passion de Jeanne d'Arc",
+    "year": 1928,
+    "rating": {
+      "kp": 8.02
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/3d220aa9-81d0-40c6-95f5-c6e3169cc692/orig"
+    }
+  },
+  {
+    "id": 570,
+    "name": "Игрок",
+    "alternativeName": "The Player",
+    "year": 1992,
+    "rating": {
+      "kp": 7.027
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/7022dc53-c0c1-4e70-a44a-9f4aeba8cb64/orig"
+    }
+  },
+  {
+    "id": 569,
+    "name": "Поля смерти",
+    "alternativeName": "The Killing Fields",
+    "year": 1984,
+    "rating": {
+      "kp": 7.332
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/d8bfa9d1-f4d3-4648-bf71-5d7778d6c4aa/orig"
+    }
+  },
+  {
+    "id": 558,
+    "name": "Мулен Руж",
+    "alternativeName": "Moulin Rouge!",
+    "year": 2001,
+    "rating": {
+      "kp": 7.851
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/e2ce49ad-b53f-4394-ab3d-b274fb7feba7/orig"
+    }
+  },
+  {
+    "id": 571,
+    "name": "Схватка",
+    "alternativeName": "Heat",
+    "year": 1995,
+    "rating": {
+      "kp": 8.039
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/9c1474d4-f356-456e-a006-1318328691e7/orig"
+    }
+  },
+  {
+    "id": 575,
+    "name": "Круглосуточные тусовщики",
+    "alternativeName": "24 Hour Party People",
+    "year": 2001,
+    "rating": {
+      "kp": 7.094
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/c64edb9f-59af-4828-8f48-eb563272516d/orig"
+    }
+  },
+  {
+    "id": 577,
+    "name": "28 дней спустя",
+    "alternativeName": "28 Days Later...",
+    "year": 2002,
+    "rating": {
+      "kp": 7.438
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/2a574893-50c3-4643-b807-8813795ba9a7/orig"
+    }
+  },
+  {
+    "id": 576,
+    "name": "28 дней",
+    "alternativeName": "28 Days",
+    "year": 2000,
+    "rating": {
+      "kp": 6.889
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/df8e30d8-eb69-4781-80ec-d9d222018413/orig"
+    }
+  },
+  {
+    "id": 578,
+    "name": "Формула 51",
+    "alternativeName": "The 51st State",
+    "year": 2001,
+    "rating": {
+      "kp": 7.198
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/2546ec76-a4b8-4249-8ef2-a8348d08eea3/orig"
+    }
+  },
+  {
+    "id": 573,
+    "name": "100 девчонок и одна в лифте",
+    "alternativeName": "100 Girls",
+    "year": 2000,
+    "rating": {
+      "kp": 6.661
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/cc722d95-d5b6-4e21-be8d-926926f79f35/orig"
+    }
+  },
+  {
+    "id": 566,
+    "name": "Можешь рассчитывать на меня",
+    "alternativeName": "You Can Count on Me",
+    "year": 2000,
+    "rating": {
+      "kp": 6.817
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/754b911a-2ef1-4fe9-ad6c-bda921a36fa4/orig"
+    }
+  },
+  {
+    "id": 572,
+    "name": "И твою маму тоже",
+    "alternativeName": "Y tu mamá también",
+    "year": 2001,
+    "rating": {
+      "kp": 6.973
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/effe7157-12bc-4b1c-8268-488cbc752c8c/orig"
+    }
+  },
+  {
+    "id": 559,
+    "name": "Птицы",
+    "alternativeName": "The Birds",
+    "year": 1963,
+    "rating": {
+      "kp": 7.545
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/adc65361-43b8-49a0-912a-387bb5803c6b/orig"
+    }
+  },
+  {
+    "id": 580,
+    "name": "8 женщин",
+    "alternativeName": "8 femmes",
+    "year": 2001,
+    "rating": {
+      "kp": 7.616
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/0a04b206-e9f6-481b-bc2a-bf1df4eb70f7/orig"
+    }
+  },
+  {
+    "id": 574,
+    "name": "15 минут славы",
+    "alternativeName": "15 Minutes",
+    "year": 2001,
+    "rating": {
+      "kp": 6.238
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/16a119d4-239d-46af-80b0-b47107bb2f54/orig"
+    }
+  },
+  {
+    "id": 579,
+    "name": "Шестой день",
+    "alternativeName": "The 6th Day",
+    "year": 2000,
+    "rating": {
+      "kp": 6.818
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/bf6ee782-f65a-40e7-992a-231ce1a88cbe/orig"
+    }
+  },
+  {
+    "id": 581,
+    "name": "8 миля",
+    "alternativeName": "8 Mile",
+    "year": 2002,
+    "rating": {
+      "kp": 7.722
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/de906015-a4b2-4d32-ac60-2d09ba361363/orig"
+    }
+  },
+  {
+    "id": 582,
+    "name": "Мой мальчик",
+    "alternativeName": "About a Boy",
+    "year": 2002,
+    "rating": {
+      "kp": 7.331
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/5639aaca-6c64-4f43-bcb1-5fbf6eb8daf5/orig"
+    }
+  },
+  {
+    "id": 583,
+    "name": "О Шмидте",
+    "alternativeName": "About Schmidt",
+    "year": 2002,
+    "rating": {
+      "kp": 7.27
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/8719b910-284b-4159-a58e-99fc7807ff33/orig"
+    }
+  },
+  {
+    "id": 584,
+    "name": "Адаптация",
+    "alternativeName": "Adaptation.",
+    "year": 2002,
+    "rating": {
+      "kp": 7.018
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10592371/8b47d791-6d53-4f6e-a77f-1a0ef5c11591/orig"
+    }
+  },
+  {
+    "id": 587,
+    "name": "Американский пирог 2",
+    "alternativeName": "American Pie 2",
+    "year": 2001,
+    "rating": {
+      "kp": 7.008
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/bed1ea39-ae9f-4dda-a36e-a3d7fedaaab3/orig"
+    }
+  },
+  {
+    "id": 588,
+    "name": "Американский психопат",
+    "alternativeName": "American Psycho",
+    "year": 2000,
+    "rating": {
+      "kp": 7.153
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/cd539991-3fae-4931-b7d7-1d9e54cbc969/orig"
+    }
+  },
+  {
+    "id": 592,
+    "name": "Опасная правда",
+    "alternativeName": "Antitrust",
+    "year": 2001,
+    "rating": {
+      "kp": 6.74
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/7e731ad9-ca89-4397-bf38-7c728b24d8a5/orig"
+    }
+  },
+  {
+    "id": 591,
+    "name": "Юбилей",
+    "alternativeName": "The Anniversary Party",
+    "year": 2001,
+    "rating": {
+      "kp": 5.859
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/b231fb7e-28a6-4570-bdb8-88cc33b051ef/orig"
+    }
+  },
+  {
+    "id": 594,
+    "name": "Искусственный разум",
+    "alternativeName": "Artificial Intelligence: AI",
+    "year": 2001,
+    "rating": {
+      "kp": 7.924
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/c1753bfc-a8df-459f-a797-d8b48e1016d3/orig"
+    }
+  },
+  {
+    "id": 593,
+    "name": "Арарат",
+    "alternativeName": "Ararat",
+    "year": 2002,
+    "rating": {
+      "kp": 7.756
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/3656ff92-e23f-4cce-b86d-b21b1b6fa797/orig"
+    }
+  },
+  {
+    "id": 590,
+    "name": "Зверофабрика",
+    "alternativeName": "Animal Factory",
+    "year": 2000,
+    "rating": {
+      "kp": 6.76
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/cc7bc3fc-be1b-411e-aa82-c18bd142ad0a/orig"
+    }
+  },
+  {
+    "id": 589,
+    "name": "Анатомия",
+    "alternativeName": "Anatomie",
+    "year": 2000,
+    "rating": {
+      "kp": 6.351
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/272f5deb-0a30-4823-8b41-24b06cd99e7c/orig"
+    }
+  },
+  {
+    "id": 596,
+    "name": "Быстрый бегун",
+    "alternativeName": "Atanarjuat",
+    "year": 2000,
+    "rating": {
+      "kp": 6.936
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/1683f3d3-ad90-4cb7-a804-f9e1e065fc49/orig"
+    }
+  },
+  {
+    "id": 586,
+    "name": "И пришел паук",
+    "alternativeName": "Along Came a Spider",
+    "year": 2001,
+    "rating": {
+      "kp": 6.891
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/8efd6797-2996-44ed-bf30-f2b44a152ad6/orig"
+    }
+  },
+  {
+    "id": 597,
+    "name": "Атлантида: Затерянный мир",
+    "alternativeName": "Atlantis: The Lost Empire",
+    "year": 2001,
+    "rating": {
+      "kp": 7.891
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/f98bcf6d-d34c-4d4d-b3cc-f5325bbe3e0d/orig"
+    }
+  },
+  {
+    "id": 585,
+    "name": "Али",
+    "alternativeName": "Ali",
+    "year": 2001,
+    "rating": {
+      "kp": 7.468
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/660f1414-cb58-4a8e-b316-e92c7af32894/orig"
+    }
+  },
+  {
+    "id": 598,
+    "name": "Остин Пауэрс: Голдмембер",
+    "alternativeName": "Austin Powers in Goldmember",
+    "year": 2002,
+    "rating": {
+      "kp": 5.888
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/dd8bed6a-eab1-4524-ac4e-e17c43a990d0/orig"
+    }
+  },
+  {
+    "id": 600,
+    "name": "Авалон",
+    "alternativeName": "Avalon",
+    "year": 2001,
+    "rating": {
+      "kp": 6.191
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/9c2bb851-9e84-42aa-8555-e9abe154ca36/orig"
+    }
+  },
+  {
+    "id": 595,
+    "name": "Астерикс и Обеликс: Миссия Клеопатра",
+    "alternativeName": "Astérix & Obélix: Mission Cléopâtre",
+    "year": 2002,
+    "rating": {
+      "kp": 7.311
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/b9eeb7d8-d216-4221-9ee6-b28be6203ec2/orig"
+    }
+  },
+  {
+    "id": 601,
+    "name": "Замороченные",
+    "alternativeName": "Bamboozled",
+    "year": 2000,
+    "rating": {
+      "kp": 6.297
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/a90caec0-baf4-4d92-82cf-f4c3a13937ec/orig"
+    }
+  },
+  {
+    "id": 606,
+    "name": "В тылу врага",
+    "alternativeName": "Behind Enemy Lines",
+    "year": 2001,
+    "rating": {
+      "kp": 6.579
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/7b59f948-079e-47c9-8770-8b43f2350fc1/orig"
+    }
+  },
+  {
+    "id": 607,
+    "name": "Фанатик",
+    "alternativeName": "The Believer",
+    "year": 2001,
+    "rating": {
+      "kp": 7.183
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/01ea4902-7b67-411c-9f0a-8a53e6a9b3af/orig"
+    }
+  },
+  {
+    "id": 604,
+    "name": "Королевская битва",
+    "alternativeName": "Batoru rowaiaru",
+    "year": 2000,
+    "rating": {
+      "kp": 7.319
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/a6e79954-b4f2-4d47-8d35-50f53f044744/orig"
+    }
+  },
+  {
+    "id": 608,
+    "name": "Победители шоу",
+    "alternativeName": "Best in Show",
+    "year": 2000,
+    "rating": {
+      "kp": 6.148
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/6813683e-380b-4d7d-9cf4-cb3d8d2381d5/orig"
+    }
+  },
+  {
+    "id": 609,
+    "name": "Большие неприятности",
+    "alternativeName": "Big Trouble",
+    "year": 2001,
+    "rating": {
+      "kp": 6.91
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/e8401191-be8e-4e69-9862-2228e3e380ae/orig"
+    }
+  },
+  {
+    "id": 605,
+    "name": "Пока не наступит ночь",
+    "alternativeName": "Before Night Falls",
+    "year": 2000,
+    "rating": {
+      "kp": 6.99
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/13569e83-cfda-4679-bea1-90ec0277c922/orig"
+    }
+  },
+  {
+    "id": 611,
+    "name": "Именинница",
+    "alternativeName": "Birthday Girl",
+    "year": 2001,
+    "rating": {
+      "kp": 6.127
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/ac2b678c-d8c9-4e97-8299-ebd9870aa5fa/orig"
+    }
+  },
+  {
+    "id": 599,
+    "name": "Автофокус",
+    "alternativeName": "Auto Focus",
+    "year": 2002,
+    "rating": {
+      "kp": 6.317
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/25f2642d-2df3-4854-ba90-3d8616813089/orig"
+    }
+  },
+  {
+    "id": 610,
+    "name": "Билли Эллиот",
+    "alternativeName": "Billy Elliot",
+    "year": 2000,
+    "rating": {
+      "kp": 8.063
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10671298/9d509077-7025-4875-88f0-f9c3e7e4cca7/orig"
+    }
+  },
+  {
+    "id": 612,
+    "name": "Чёрный ястреб",
+    "alternativeName": "Black Hawk Down",
+    "year": 2001,
+    "rating": {
+      "kp": 7.802
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/09e3284b-3362-4df6-986f-15b91562a967/orig"
+    }
+  },
+  {
+    "id": 603,
+    "name": "Парикмахерская",
+    "alternativeName": "Barbershop",
+    "year": 2002,
+    "rating": {
+      "kp": 6.189
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/659f564d-9316-4cda-a6d4-30ff464c21fc/orig"
+    }
+  },
+  {
+    "id": 602,
+    "name": "Бандиты",
+    "alternativeName": "Bandits",
+    "year": 2001,
+    "rating": {
+      "kp": 6.917
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/bd614142-2e19-436d-a1de-e83807bd69c2/orig"
+    }
+  },
+  {
+    "id": 614,
+    "name": "Мерцающие огни",
+    "alternativeName": "Blinkende lygter",
+    "year": 2000,
+    "rating": {
+      "kp": 7.04
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/f12e231e-06ec-4cfc-8424-0ae83b9efe3f/orig"
+    }
+  },
+  {
+    "id": 613,
+    "name": "Блэйд 2",
+    "alternativeName": "Blade II",
+    "year": 2002,
+    "rating": {
+      "kp": 6.848
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/9c0717ab-9521-4447-b4da-1d453b122d99/orig"
+    }
+  },
+  {
+    "id": 616,
+    "name": "Кокаин",
+    "alternativeName": "Blow",
+    "year": 2001,
+    "rating": {
+      "kp": 7.967
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/f6b90ead-f020-4d7f-9796-b41e8d738499/orig"
+    }
+  },
+  {
+    "id": 620,
+    "name": "Боулинг для Колумбины",
+    "alternativeName": "Bowling for Columbine",
+    "year": 2002,
+    "rating": {
+      "kp": 7.686
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/1d511f48-6c35-4cd0-bd07-24f568503bdf/orig"
+    }
+  },
+  {
+    "id": 617,
+    "name": "Бойлерная",
+    "alternativeName": "Boiler Room",
+    "year": 2000,
+    "rating": {
+      "kp": 7.054
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/231782df-bea1-471e-8fd8-49aa2c601383/orig"
+    }
+  },
+  {
+    "id": 615,
+    "name": "Кровавая работа",
+    "alternativeName": "Blood Work",
+    "year": 2002,
+    "rating": {
+      "kp": 6.591
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/a636cd7e-14a0-4237-9074-35a4c245dea5/orig"
+    }
+  },
+  {
+    "id": 619,
+    "name": "Идентификация Борна",
+    "alternativeName": "The Bourne Identity",
+    "year": 2002,
+    "rating": {
+      "kp": 7.771
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/14b9e224-6500-4b8b-acd6-4ae219baf17f/orig"
+    }
+  },
+  {
+    "id": 623,
+    "name": "Клуб разбитых сердец: Романтическая комедия",
+    "alternativeName": "The Broken Hearts Club: A Romantic Comedy",
+    "year": 2000,
+    "rating": {
+      "kp": 6.36
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/ec9ddbb3-8f90-46cb-b9f6-c3dc26889cb5/orig"
+    }
+  },
+  {
+    "id": 621,
+    "name": "Дневник Бриджит Джонс",
+    "alternativeName": "Bridget Jones's Diary",
+    "year": 2001,
+    "rating": {
+      "kp": 7.446
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/9b43cf93-2c22-47e9-8d1f-dc898b35d504/orig"
+    }
+  },
+  {
+    "id": 628,
+    "name": "Смерть в Голливуде",
+    "alternativeName": "The Cat's Meow",
+    "year": 2001,
+    "rating": {
+      "kp": 6.231
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/903b591b-41e0-4e7e-b095-2a27ea8d8a7a/orig"
+    }
+  },
+  {
+    "id": 629,
+    "name": "Безумный Сесил Б.",
+    "alternativeName": "Cecil B. Demented",
+    "year": 2000,
+    "rating": {
+      "kp": 6.883
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/15ac0141-701c-4c9c-a494-b502a040f548/orig"
+    }
+  },
+  {
+    "id": 618,
+    "name": "Чужой билет",
+    "alternativeName": "Bounce",
+    "year": 2000,
+    "rating": {
+      "kp": 6.982
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/c283e138-f1cd-4012-a07d-695e0fee6859/orig"
+    }
+  },
+  {
+    "id": 625,
+    "name": "Садист",
+    "alternativeName": "Bully",
+    "year": 2001,
+    "rating": {
+      "kp": 6.542
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/460c3fc6-24c4-48a1-a239-2b913fd3b179/orig"
+    }
+  },
+  {
+    "id": 624,
+    "name": "Брат якудзы",
+    "alternativeName": "Brother",
+    "year": 2000,
+    "rating": {
+      "kp": 7.612
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10809116/7f8533b2-4d4a-4043-85a2-3297f9f56689/orig"
+    }
+  },
+  {
+    "id": 626,
+    "name": "Выбор капитана Корелли",
+    "alternativeName": "Captain Corelli's Mandolin",
+    "year": 2001,
+    "rating": {
+      "kp": 6.952
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/b82eeffc-9b3f-4cf4-b3b7-79d4e79132cb/orig"
+    }
+  },
+  {
+    "id": 627,
+    "name": "Изгой",
+    "alternativeName": "Cast Away",
+    "year": 2000,
+    "rating": {
+      "kp": 8.254
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10953618/728b805f-920e-40d7-8161-b255b9abf813/orig"
+    }
+  },
+  {
+    "id": 630,
+    "name": "Клетка",
+    "alternativeName": "The Cell",
+    "year": 2000,
+    "rating": {
+      "kp": 7.051
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/9f141ccb-d9e2-4a6c-b5dc-f71118ecd96d/orig"
+    }
+  },
+  {
+    "id": 622,
+    "name": "Добейся успеха",
+    "alternativeName": "Bring It On",
+    "year": 2000,
+    "rating": {
+      "kp": 6.82
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/b21f52a3-c298-4389-99c9-2f1f7c50f7ae/orig"
+    }
+  },
+  {
+    "id": 632,
+    "name": "В чужом ряду",
+    "alternativeName": "Changing Lanes",
+    "year": 2002,
+    "rating": {
+      "kp": 7.005
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/cc86dd00-d26f-4502-90a2-f8d6330d1db1/orig"
+    }
+  },
+  {
+    "id": 631,
+    "name": "Авансцена",
+    "alternativeName": "Center Stage",
+    "year": 2000,
+    "rating": {
+      "kp": 7.565
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/7086cb63-a7a7-47ca-9184-87714b411591/orig"
+    }
+  },
+  {
+    "id": 633,
+    "name": "Ангелы Чарли",
+    "alternativeName": "Charlie's Angels",
+    "year": 2000,
+    "rating": {
+      "kp": 6.579
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/452868c6-d94b-4855-88ed-482eadbc968f/orig"
+    }
+  },
+  {
+    "id": 637,
+    "name": "Взгляд изнутри",
+    "alternativeName": "Chopper",
+    "year": 2000,
+    "rating": {
+      "kp": 6.676
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/9b5420b2-58e5-4055-927e-2e99b7eb3d3b/orig"
+    }
+  },
+  {
+    "id": 639,
+    "name": "Последнее дело Ламарки",
+    "alternativeName": "City by the Sea",
+    "year": 2002,
+    "rating": {
+      "kp": 6.416
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10900341/acc4578a-1fa0-4116-8f9c-2abcda9359b2/orig"
+    }
+  },
+  {
+    "id": 638,
+    "name": "Чак и Бак",
+    "alternativeName": "Chuck & Buck",
+    "year": 2000,
+    "rating": {
+      "kp": 5.798
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/4ca557e0-2a03-4f5a-ad4d-fe7734ed0378/orig"
+    }
+  },
+  {
+    "id": 640,
+    "name": "Золотая пыль",
+    "alternativeName": "The Claim",
+    "year": 2000,
+    "rating": {
+      "kp": 6.255
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/a608e007-8157-4271-895e-403da7e011f2/orig"
+    }
+  },
+  {
+    "id": 636,
+    "name": "Шоколад",
+    "alternativeName": "Chocolat",
+    "year": 2000,
+    "rating": {
+      "kp": 7.867
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/edd516a2-3337-41c7-b23c-5c68de3a339d/orig"
+    }
+  },
+  {
+    "id": 642,
+    "name": "Претендент",
+    "alternativeName": "The Contender",
+    "year": 2000,
+    "rating": {
+      "kp": 6.332
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/2f98e132-e77c-4c10-a364-58c9f81fbe1a/orig"
+    }
+  },
+  {
+    "id": 643,
+    "name": "Граф Монте-Кристо",
+    "alternativeName": "The Count of Monte Cristo",
+    "year": 2002,
+    "rating": {
+      "kp": 6.745
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/d8cdc133-694f-46e2-a93e-87d620e90a29/orig"
+    }
+  },
+  {
+    "id": 644,
+    "name": "Безумные и прекрасные",
+    "alternativeName": "Crazy/Beautiful",
+    "year": 2001,
+    "rating": {
+      "kp": 7.194
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/83047e1f-81ba-488d-abf8-19ffb0b03c41/orig"
+    }
+  },
+  {
+    "id": 645,
+    "name": "Проклятие нефритового скорпиона",
+    "alternativeName": "The Curse of the Jade Scorpion",
+    "year": 2001,
+    "rating": {
+      "kp": 7.203
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/9b1bee3f-5814-40fa-b2df-32dc3c703888/orig"
+    }
+  },
+  {
+    "id": 635,
+    "name": "Побег из курятника",
+    "alternativeName": "Chicken Run",
+    "year": 2000,
+    "rating": {
+      "kp": 6.965
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4483445/8115723a-b8ed-4297-a550-9fd9a090ac09/orig"
+    }
+  },
+  {
+    "id": 641,
+    "name": "Признания опасного человека",
+    "alternativeName": "Confessions of a Dangerous Mind",
+    "year": 2002,
+    "rating": {
+      "kp": 7.028
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10812607/9ded1919-09ba-4f23-bf8b-26371b482a01/orig"
+    }
+  },
+  {
+    "id": 634,
+    "name": "Чикаго",
+    "alternativeName": "Chicago",
+    "year": 2002,
+    "rating": {
+      "kp": 7.691
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/1e91d250-bccf-475b-be3e-5d3fd910957f/orig"
+    }
+  },
+  {
+    "id": 648,
+    "name": "Сорвиголова",
+    "alternativeName": "Daredevil",
+    "year": 2003,
+    "rating": {
+      "kp": 6.129
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/0b567ece-de92-42e7-8bca-826f2787dd74/orig"
+    }
+  },
+  {
+    "id": 647,
+    "name": "Опасные игры",
+    "alternativeName": "The Dangerous Lives of Altar Boys",
+    "year": 2002,
+    "rating": {
+      "kp": 7.066
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/f3b67cd3-d1c2-48cb-b96b-1bda6dc8675c/orig"
+    }
+  },
+  {
+    "id": 649,
+    "name": "Убить Смучи",
+    "alternativeName": "Death to Smoochy",
+    "year": 2002,
+    "rating": {
+      "kp": 6.574
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/30f7821e-ee1a-48bc-9885-b4287e7f3f76/orig"
+    }
+  },
+  {
+    "id": 650,
+    "name": "На самом дне",
+    "alternativeName": "The Deep End",
+    "year": 2001,
+    "rating": {
+      "kp": 6.492
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/0aabb20f-e8e1-407f-81c6-d0ff650f2eeb/orig"
+    }
+  },
+  {
+    "id": 651,
+    "name": "Умри, но не сейчас",
+    "alternativeName": "Die Another Day",
+    "year": 2002,
+    "rating": {
+      "kp": 7
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/baa75c87-ab13-446b-9c8e-f751b243bc8a/orig"
+    }
+  },
+  {
+    "id": 646,
+    "name": "Танцующая в темноте",
+    "alternativeName": "Dancer in the Dark",
+    "year": 2000,
+    "rating": {
+      "kp": 7.993
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/355a7fde-66df-42e4-9360-ee8400221203/orig"
+    }
+  },
+  {
+    "id": 654,
+    "name": "Псы-воины",
+    "alternativeName": "Dog Soldiers",
+    "year": 2001,
+    "rating": {
+      "kp": 6.703
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1777765/3ead34fb-5fa6-42bb-ab16-9da9e438780d/orig"
+    }
+  },
+  {
+    "id": 655,
+    "name": "Не говори ни слова",
+    "alternativeName": "Don't Say a Word",
+    "year": 2001,
+    "rating": {
+      "kp": 7.111
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/a02fbe8a-9a0d-45b4-ba0f-bfbe61e13b28/orig"
+    }
+  },
+  {
+    "id": 656,
+    "name": "Любовное настроение",
+    "alternativeName": "Faa yeung nin wa",
+    "year": 2000,
+    "rating": {
+      "kp": 7.907
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/d31f4594-4215-434d-ac47-d4166059fbee/orig"
+    }
+  },
+  {
+    "id": 657,
+    "name": "Эллинг",
+    "alternativeName": "Elling",
+    "year": 2001,
+    "rating": {
+      "kp": 6.915
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/05fd18c5-5a97-4816-b8ef-07c2ba2d0daa/orig"
+    }
+  },
+  {
+    "id": 658,
+    "name": "Похождения императора",
+    "alternativeName": "The Emperor's New Groove",
+    "year": 2000,
+    "rating": {
+      "kp": 7.94
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/3ed9d55f-e155-49ec-a370-9f8e51066d61/orig"
+    }
+  },
+  {
+    "id": 659,
+    "name": "Враг у ворот",
+    "alternativeName": "Enemy at the Gates",
+    "year": 2001,
+    "rating": {
+      "kp": 7.01
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/8cc4fbc3-bd0b-4b78-83e9-323cb21ee640/orig"
+    }
+  },
+  {
+    "id": 653,
+    "name": "Тарелка",
+    "alternativeName": "The Dish",
+    "year": 2000,
+    "rating": {
+      "kp": 6.482
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/cce9015a-cbfc-4b37-ac95-9f64cacc2a2e/orig"
+    }
+  },
+  {
+    "id": 660,
+    "name": "Энигма",
+    "alternativeName": "Enigma",
+    "year": 2001,
+    "rating": {
+      "kp": 6.716
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/618068b7-856f-4993-bf23-378eb1d2f165/orig"
+    }
+  },
+  {
+    "id": 662,
+    "name": "Хребет дьявола",
+    "alternativeName": "El espinazo del diablo",
+    "year": 2001,
+    "rating": {
+      "kp": 7.108
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/e185a9fc-8b2f-44f9-90a2-5640cb489190/orig"
+    }
+  },
+  {
+    "id": 652,
+    "name": "Динозавр",
+    "alternativeName": "Dinosaur",
+    "year": 2000,
+    "rating": {
+      "kp": 7.744
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/61638ed8-affb-4518-a546-e7a042bd0d21/orig"
+    }
+  },
+  {
+    "id": 664,
+    "name": "Семьянин",
+    "alternativeName": "The Family Man",
+    "year": 2000,
+    "rating": {
+      "kp": 7.837
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4716873/b19fcaf1-a71d-4685-9ec9-5f049a112425/orig"
+    }
+  },
+  {
+    "id": 665,
+    "name": "Вдали от рая",
+    "alternativeName": "Far from Heaven",
+    "year": 2002,
+    "rating": {
+      "kp": 6.703
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/01df4a63-424e-4483-8725-66792fff88f5/orig"
+    }
+  },
+  {
+    "id": 666,
+    "name": "Форсаж",
+    "alternativeName": "The Fast and the Furious",
+    "year": 2001,
+    "rating": {
+      "kp": 7.824
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/8277905e-aa09-465d-b0de-7c389a42f215/orig"
+    }
+  },
+  {
+    "id": 672,
+    "name": "О птичках",
+    "alternativeName": "For the Birds",
+    "year": 2000,
+    "rating": {
+      "kp": 8.218
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/6661f12d-71ef-4b03-a2bd-0d4fdd2f516c/orig"
+    }
+  },
+  {
+    "id": 671,
+    "name": "Найти Форрестера",
+    "alternativeName": "Finding Forrester",
+    "year": 2000,
+    "rating": {
+      "kp": 7.84
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/3caa977d-44b6-4478-b237-5d105bbb84d7/orig"
+    }
+  },
+  {
+    "id": 670,
+    "name": "Последняя фантазия",
+    "alternativeName": "Final Fantasy: The Spirits Within",
+    "year": 2001,
+    "rating": {
+      "kp": 7.576
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/59510c66-6933-4c45-91d4-2af8f860ac80/orig"
+    }
+  },
+  {
+    "id": 668,
+    "name": "Пункт назначения",
+    "alternativeName": "Final Destination",
+    "year": 2000,
+    "rating": {
+      "kp": 7.484
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/47f8260a-2f09-4bce-9e36-04244a8e8463/orig"
+    }
+  },
+  {
+    "id": 673,
+    "name": "Четыре пера",
+    "alternativeName": "The Four Feathers",
+    "year": 2002,
+    "rating": {
+      "kp": 7.769
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10900341/506572c3-f2a6-404e-9843-b23f48c531df/orig"
+    }
+  },
+  {
+    "id": 667,
+    "name": "Роковая женщина",
+    "alternativeName": "Femme Fatale",
+    "year": 2002,
+    "rating": {
+      "kp": 6.696
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/3561a66f-2305-4c20-a613-4db54fa5536b/orig"
+    }
+  },
+  {
+    "id": 669,
+    "name": "Пункт назначения 2",
+    "alternativeName": "Final Destination 2",
+    "year": 2003,
+    "rating": {
+      "kp": 7.118
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/8d93ad26-cd08-4b7a-94a4-d9c4215b5a7b/orig"
+    }
+  },
+  {
+    "id": 677,
+    "name": "Из ада",
+    "alternativeName": "From Hell",
+    "year": 2001,
+    "rating": {
+      "kp": 7.498
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/7a48d15c-0380-4a55-8b9e-7c6c5cb0cc30/orig"
+    }
+  },
+  {
+    "id": 675,
+    "name": "Радиоволна",
+    "alternativeName": "Frequency",
+    "year": 2000,
+    "rating": {
+      "kp": 7.826
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/b1dc6dd9-616f-4a74-905b-7185edb92dfc/orig"
+    }
+  },
+  {
+    "id": 678,
+    "name": "Банды Нью-Йорка",
+    "alternativeName": "Gangs of New York",
+    "year": 2002,
+    "rating": {
+      "kp": 7.739
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/3baea99c-635d-48c6-9085-aebebfa35a3d/orig"
+    }
+  },
+  {
+    "id": 663,
+    "name": "Эксперимент",
+    "alternativeName": "Das Experiment",
+    "year": 2000,
+    "rating": {
+      "kp": 7.707
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/88ce3bf3-853f-4633-8124-93393724a91b/orig"
+    }
+  },
+  {
+    "id": 676,
+    "name": "Фрида",
+    "alternativeName": "Frida",
+    "year": 2002,
+    "rating": {
+      "kp": 7.919
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/4248825f-2f55-49b0-9be9-a3661e88ebf7/orig"
+    }
+  },
+  {
+    "id": 661,
+    "name": "Эрин Брокович",
+    "alternativeName": "Erin Brockovich",
+    "year": 2000,
+    "rating": {
+      "kp": 7.863
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/d45922aa-8bbd-4944-8892-ec97af863e0e/orig"
+    }
+  },
+  {
+    "id": 680,
+    "name": "Оборотень",
+    "alternativeName": "Ginger Snaps",
+    "year": 2000,
+    "rating": {
+      "kp": 7.016
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/7dae0ec7-1749-4b7f-983b-33fbe64d5107/orig"
+    }
+  },
+  {
+    "id": 682,
+    "name": "Хорошая девочка",
+    "alternativeName": "The Good Girl",
+    "year": 2001,
+    "rating": {
+      "kp": 6.353
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/9ced5226-890b-4612-98fa-e027c0daea93/orig"
+    }
+  },
+  {
+    "id": 681,
+    "name": "Женский бой",
+    "alternativeName": "Girlfight",
+    "year": 2000,
+    "rating": {
+      "kp": 6.899
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/a2972116-1114-4601-a093-6586ec4a22bd/orig"
+    }
+  },
+  {
+    "id": 683,
+    "name": "Госфорд-парк",
+    "alternativeName": "Gosford Park",
+    "year": 2001,
+    "rating": {
+      "kp": 6.819
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/04e2db8a-b384-4d79-a963-aad6e731d260/orig"
+    }
+  },
+  {
+    "id": 686,
+    "name": "Ганнибал",
+    "alternativeName": "Hannibal",
+    "year": 2001,
+    "rating": {
+      "kp": 7.758
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/c0ed19c8-8fa3-48dd-87bf-ec8ba0cce029/orig"
+    }
+  },
+  {
+    "id": 685,
+    "name": "Гамлет",
+    "alternativeName": "Hamlet",
+    "year": 2000,
+    "rating": {
+      "kp": 6.579
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/16297736-28ba-4150-b651-619a493d48d9/orig"
+    }
+  },
+  {
+    "id": 687,
+    "name": "Хардбол",
+    "alternativeName": "Hardball",
+    "year": 2001,
+    "rating": {
+      "kp": 7.11
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/794bee64-4df8-4c85-89bc-c4fe686e0903/orig"
+    }
+  },
+  {
+    "id": 684,
+    "name": "На чужой вкус",
+    "alternativeName": "Le goût des autres",
+    "year": 2000,
+    "rating": {
+      "kp": 6.641
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/8afa0b4e-1b98-46b7-9975-ad0bd03906e4/orig"
+    }
+  },
+  {
+    "id": 690,
+    "name": "Гарри – друг, который желает Вам добра",
+    "alternativeName": "Harry, un ami qui vous veut du bien",
+    "year": 2000,
+    "rating": {
+      "kp": 6.875
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/8ac41483-feb7-46f6-952c-9334dae92c1c/orig"
+    }
+  },
+  {
+    "id": 691,
+    "name": "Война Харта",
+    "alternativeName": "Hart's War",
+    "year": 2002,
+    "rating": {
+      "kp": 6.408
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/735d9f8c-683f-4cea-92ee-7bb088cde1bf/orig"
+    }
+  },
+  {
+    "id": 674,
+    "name": "Порок",
+    "alternativeName": "Frailty",
+    "year": 2001,
+    "rating": {
+      "kp": 7.011
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/80e99a68-d31b-4844-a3f7-4df882033a9e/orig"
+    }
+  },
+  {
+    "id": 689,
+    "name": "Гарри Поттер и философский камень",
+    "alternativeName": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "rating": {
+      "kp": 8.289
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/orig"
+    }
+  },
+  {
+    "id": 693,
+    "name": "Сердца в Атлантиде",
+    "alternativeName": "Hearts in Atlantis",
+    "year": 2001,
+    "rating": {
+      "kp": 7.573
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/58fceb6a-3f78-4ffd-aef3-04c6d6ed209f/orig"
+    }
+  },
+  {
+    "id": 695,
+    "name": "Хедвиг и The Angry Inch",
+    "alternativeName": "Hedwig and The Angry Inch",
+    "year": 2001,
+    "rating": {
+      "kp": 7.188
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/b4012238-ae9d-45f9-848d-f389ae0a626e/orig"
+    }
+  },
+  {
+    "id": 679,
+    "name": "Дар",
+    "alternativeName": "The Gift",
+    "year": 2000,
+    "rating": {
+      "kp": 6.899
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/f2460cac-3057-42c1-b46f-8c482b65a292/orig"
+    }
+  },
+  {
+    "id": 697,
+    "name": "Особо тяжкие преступления",
+    "alternativeName": "High Crimes",
+    "year": 2002,
+    "rating": {
+      "kp": 7.087
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/ef12ad4f-77fc-4e6b-9a49-9322df0739ed/orig"
+    }
+  },
+  {
+    "id": 698,
+    "name": "Фанатик",
+    "alternativeName": "High Fidelity",
+    "year": 2000,
+    "rating": {
+      "kp": 6.853
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/4cf9ce59-1dc5-442f-80eb-7b3daa339bca/orig"
+    }
+  },
+  {
+    "id": 699,
+    "name": "Сын невесты",
+    "alternativeName": "El hijo de la novia",
+    "year": 2001,
+    "rating": {
+      "kp": 6.89
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/9e9743a1-bd4b-4088-9cdc-87decdca41d2/orig"
+    }
+  },
+  {
+    "id": 688,
+    "name": "Гарри Поттер и Тайная комната",
+    "alternativeName": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "rating": {
+      "kp": 8.144
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/1ef65bfb-b16b-42aa-a54a-758395253290/orig"
+    }
+  },
+  {
+    "id": 694,
+    "name": "Рай",
+    "alternativeName": "Heaven",
+    "year": 2001,
+    "rating": {
+      "kp": 7.06
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/13b8396d-6e11-4cdd-9e92-cc5b7ac383e9/orig"
+    }
+  },
+  {
+    "id": 692,
+    "name": "Сердцеедки",
+    "alternativeName": "Heartbreakers",
+    "year": 2001,
+    "rating": {
+      "kp": 7.231
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/a10c0aca-1aa9-49da-9919-0d7483247062/orig"
+    }
+  }
+]

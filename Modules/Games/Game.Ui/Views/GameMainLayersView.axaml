@@ -1,0 +1,63 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:Game.Ui.Views"
+             xmlns:models="clr-namespace:Game.Domain.Models;assembly=Game.Domain"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Game.Ui.Views.GameMainLayersView">
+    <Design.DataContext>
+        <views:GameMainLayersViewModel />
+    </Design.DataContext>
+
+    <UserControl.Styles>
+        <Style Selector="Button.Focusable:focus">
+            <Setter Property="Background" Value="CornflowerBlue" />
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+        </Style>
+    </UserControl.Styles>
+
+    <Grid RowDefinitions="Auto, *">
+        <Button Content="Назад"
+                Classes="Focusable"
+                Grid.Row="0"
+                XYFocus.Left="{Binding #last}" />
+
+        <Grid RowDefinitions="*, *"
+              Grid.Row="1">
+            <ItemsControl Grid.Row="0"
+                          ItemsSource="{Binding GameModes}"
+                          ClipToBounds="False"
+                          Margin="15"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                          ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="3" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="models:GameMode">
+                        <Grid Margin="5,5,5,0">
+                            <Button Command="{Binding DataContext.SelectGameModeCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding .}"
+                                    Classes="Flat Outline Focusable"
+                                    Margin="5"
+                                    XYFocus.Right="{Binding #first}">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Name}"
+                                               Classes="Headline6"
+                                               HorizontalAlignment="Center" />
+                                    <TextBlock Text="{Binding FilmsCount, StringFormat='Количество: {0}'}"
+                                               HorizontalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
+    </Grid>
+</UserControl>

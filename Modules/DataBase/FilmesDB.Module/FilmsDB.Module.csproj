@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Avalonia" Version="8.1.97.11073" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FilmesDB.Infrastructure.Interfaces\FilmsDB.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\FilmesDB.Infrastructure\FilmsDB.Infrastructure.csproj" />
+    <ProjectReference Include="..\FilmsDB.Ui\FilmsDB.Ui.csproj" />
+  </ItemGroup>
+
+</Project>

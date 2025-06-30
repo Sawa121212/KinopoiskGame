@@ -1,0 +1,106 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mvvm="http://prismlibrary.com/"
+             xmlns:styles="clr-namespace:Material.Styles;assembly=Material.Styles"
+             xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:models="clr-namespace:FilmsDB.Domain.Models;assembly=TopicDb.Domain"
+             xmlns:localization="clr-namespace:Common.Core.Localization;assembly=Common.Core"
+             xmlns:questions="clr-namespace:FilmsDB.Ui.Views.Films"
+             xmlns:questions1="clr-namespace:FilmsDB.Ui.Views.Films"
+             xmlns:films="clr-namespace:FilmsDB.Ui.Views.Films"
+             xmlns:buttons="clr-namespace:Common.Ui.Behaviors.Buttons;assembly=Common.Ui"
+             x:Class="FilmsDB.Ui.Views.Films.AddNewFilmView"
+             mc:Ignorable="d"
+             mvvm:ViewModelLocator.AutoWireViewModel="True"
+             x:Name="TopicListControl"
+             x:DataType="films:AddNewFilmViewModel"
+             d:DesignWidth="800" d:DesignHeight="450">
+
+    <Design.DataContext>
+        <films:AddNewFilmViewModel />
+    </Design.DataContext>
+
+    <Grid RowDefinitions="Auto, *, Auto">
+        <!-- Back-->
+        <Button Grid.Row="0" Command="{Binding MoveBackCommand}" Margin="0,3">
+            <Button.Content>
+                <Grid ColumnDefinitions="Auto, 8, *">
+                    <materialIcons:MaterialIcon Grid.Column="0" Kind="ChevronLeft" />
+                    <TextBlock Grid.Column="2" Text="{localization:Localize MoveBack}" />
+                </Grid>
+            </Button.Content>
+        </Button>
+
+        <!-- Content -->
+        <controls:Card Grid.Row="1"
+                       VerticalAlignment="Center"
+                       VerticalContentAlignment="Center">
+            <Grid ColumnDefinitions="Auto,*,Auto">
+                <TextBlock Classes="Subtitle1"
+                           Text="Файл:"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Grid.Column="0" />
+
+                <TextBox Classes="outline"
+                         Text="{Binding FileName, Mode=TwoWay}"
+                         Watermark="Укажите файл"
+                         IsReadOnly="True"
+                         Grid.Column="1" />
+
+                <Button Classes="Flat"
+                        Content="Выбрать"
+                        Grid.Column="2">
+                    <Interaction.Behaviors>
+                        <buttons:ButtonOpenFileDialogCommandBehavior Command="{Binding SelectFileCommand}" />
+                    </Interaction.Behaviors>
+                </Button>
+            </Grid>
+        </controls:Card>
+
+        <controls:Card Grid.Row="2"
+                       VerticalAlignment="Center"
+                       IsVisible="{Binding FileName, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
+
+            <Grid RowDefinitions="Auto, *"
+                  ColumnDefinitions="Auto, *">
+                <TextBlock Text="Наименование категории:"
+                           Classes="Subtitle1"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="0" />
+                <TextBox Text="{Binding Name, Mode=TwoWay}"
+                         Classes="outline"
+                         IsReadOnly="True"
+                         UseFloatingWatermark="True"
+                         MaxLength="500"
+                         Grid.Row="0"
+                         Grid.Column="1" />
+
+                <TextBlock Text="Количество фильмов:"
+                           Classes="Subtitle1"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Grid.Row="1"
+                           Grid.Column="0" />
+                <TextBox Text="{Binding Category.Films.Count}"
+                         Classes="outline"
+                         IsReadOnly="True"
+                         Grid.Row="1"
+                         Grid.Column="1" />
+            </Grid>
+
+        </controls:Card>
+
+        <Button Grid.Row="2"
+                Content="Применить"
+                Command="{Binding CreateCommand}"
+                Margin="0,5">
+        </Button>
+    </Grid>
+</UserControl>
