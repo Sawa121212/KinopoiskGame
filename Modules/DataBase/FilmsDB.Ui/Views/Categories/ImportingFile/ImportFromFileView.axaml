@@ -10,15 +10,16 @@
              xmlns:localization="clr-namespace:Common.Core.Localization;assembly=Common.Core"
              xmlns:categories="clr-namespace:FilmsDB.Ui.Views.Categories"
              xmlns:buttons="clr-namespace:Common.Ui.Behaviors.Buttons;assembly=Common.Ui"
-             x:Class="FilmsDB.Ui.Views.Categories.ImportFromFileView"
+             xmlns:importingFile="clr-namespace:FilmsDB.Ui.Views.Categories.ImportingFile"
+             x:Class="FilmsDB.Ui.Views.Categories.ImportingFile.ImportFromFileView"
              mc:Ignorable="d"
              mvvm:ViewModelLocator.AutoWireViewModel="True"
              x:Name="CategorieListControl"
-             x:DataType="categories:ImportFromFileViewModel"
+             x:DataType="importingFile:ImportFromFileViewModel"
              d:DesignWidth="800" d:DesignHeight="450">
 
     <Design.DataContext>
-        <categories:ImportFromFileViewModel />
+        <importingFile:ImportFromFileViewModel />
     </Design.DataContext>
 
     <Grid RowDefinitions="Auto, Auto, *, Auto">
@@ -36,39 +37,51 @@
         <controls:Card Grid.Row="1"
                        VerticalAlignment="Center"
                        VerticalContentAlignment="Center">
-            <Grid ColumnDefinitions="Auto,*,Auto">
-                <TextBlock Classes="Subtitle1"
-                           Text="Файл:"
-                           FontWeight="Bold"
-                           VerticalAlignment="Center"
-                           Grid.Column="0" />
+            <Grid RowDefinitions="Auto,Auto">
+                <Grid ColumnDefinitions="Auto,*,Auto"
+                      Grid.Row="0">
+                    <TextBlock Classes="Subtitle1"
+                               Text="Файл:"
+                               FontWeight="Bold"
+                               VerticalAlignment="Center"
+                               Margin="3"
+                               Grid.Column="0" />
 
-                <TextBox Classes="outline"
-                         Text="{Binding FileName, Mode=TwoWay}"
-                         Watermark="Укажите файл"
-                         IsReadOnly="True"
-                         Grid.Column="1" />
+                    <TextBox Classes="outline"
+                             Text="{Binding FileName, Mode=TwoWay}"
+                             Watermark="Укажите файл"
+                             VerticalAlignment="Center"
+                             IsReadOnly="True"
+                             Grid.Column="1" />
 
-                <Button Classes="Flat"
-                        Content="Выбрать"
-                        Grid.Column="2">
-                    <Interaction.Behaviors>
-                        <buttons:ButtonOpenFileDialogCommandBehavior Command="{Binding SelectFileCommand}" />
-                    </Interaction.Behaviors>
-                </Button>
+                    <Button Classes="Flat"
+                            Content="Выбрать"
+                            Grid.Column="2">
+                        <Interaction.Behaviors>
+                            <buttons:ButtonOpenFileDialogCommandBehavior Command="{Binding SelectFileCommand}" />
+                        </Interaction.Behaviors>
+                    </Button>
+                </Grid>
+
+                <CheckBox IsChecked="{Binding ShouldValidate}"
+                          Content="Пропустить фильмы без постера или с рейтингом = 0"
+                          Margin="0,5,0,0"
+                          Grid.Row="1" />
             </Grid>
         </controls:Card>
 
+        <!-- Category -->
         <controls:Card Grid.Row="2"
                        VerticalAlignment="Center"
                        IsVisible="{Binding FileName, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
 
-            <Grid RowDefinitions="Auto, *"
-                  ColumnDefinitions="Auto, *">
+            <Grid RowDefinitions="Auto,Auto,*"
+                  ColumnDefinitions="Auto,*">
                 <TextBlock Text="Наименование категории:"
                            Classes="Subtitle1"
                            FontWeight="Bold"
                            VerticalAlignment="Center"
+                           Margin="3"
                            Grid.Row="0"
                            Grid.Column="0" />
                 <TextBox Text="{Binding Name, Mode=TwoWay}"
@@ -76,6 +89,7 @@
                          assists:TextFieldAssist.Label="Введите наименование категории"
                          UseFloatingWatermark="True"
                          MaxLength="500"
+                         Margin="3"
                          Grid.Row="0"
                          Grid.Column="1" />
 
@@ -83,12 +97,27 @@
                            Classes="Subtitle1"
                            FontWeight="Bold"
                            VerticalAlignment="Center"
+                           Margin="3"
                            Grid.Row="1"
                            Grid.Column="0" />
                 <TextBox Text="{Binding Category.Films.Count}"
                          Classes="outline"
                          IsReadOnly="True"
+                         Margin="3"
                          Grid.Row="1"
+                         Grid.Column="1" />
+
+                <TextBlock Text="Количество пропущенных фильмов:"
+                           Classes="Subtitle2"
+                           VerticalAlignment="Center"
+                           Margin="3"
+                           Grid.Row="2"
+                           Grid.Column="0" />
+                <TextBox Text="{Binding RemovedFilmsCount}"
+                         Classes="outline"
+                         IsReadOnly="True"
+                         Margin="3"
+                         Grid.Row="2"
                          Grid.Column="1" />
             </Grid>
 

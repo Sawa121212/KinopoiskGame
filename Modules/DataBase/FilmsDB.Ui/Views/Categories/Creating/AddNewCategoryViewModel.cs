@@ -9,7 +9,7 @@ using Prism.Commands;
 using Prism.Regions;
 using ReactiveUI;
 
-namespace FilmsDB.Ui.Views.Categories
+namespace FilmsDB.Ui.Views.Categories.Creating
 {
     public class AddNewCategoryViewModel : NavigationViewModelBase, IInitializable
     {

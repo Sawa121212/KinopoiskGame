@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace FilmsDB.Ui.Views.Categories
+namespace FilmsDB.Ui.Views.Categories.Creating
 {
     public partial class AddNewCategoryView : UserControl
     {

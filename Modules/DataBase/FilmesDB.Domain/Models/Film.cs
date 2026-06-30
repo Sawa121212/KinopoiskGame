@@ -19,6 +19,8 @@ public class Film
     [Required]
     public double? Rating { get; set; }
 
+    public int Year { get; set; }
+
     public string PosterUrl { get; set; }
 
     public int CategoryId { get; set; }

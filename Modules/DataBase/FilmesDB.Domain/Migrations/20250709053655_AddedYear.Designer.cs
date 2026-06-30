@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmsDB.Domain.Migrations
 {
     [DbContext(typeof(KinopoiskDbContext))]
-    [Migration("20250405121048_First050425")]
-    partial class First050425
+    [Migration("20250709053655_AddedYear")]
+    partial class AddedYear
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,7 +18,7 @@ namespace FilmsDB.Domain.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.17");
 
-            modelBuilder.Entity("FilmesDB.Domain.Models.Category", b =>
+            modelBuilder.Entity("FilmsDB.Domain.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace FilmsDB.Domain.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("FilmesDB.Domain.Models.Film", b =>
+            modelBuilder.Entity("FilmsDB.Domain.Models.Film", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -60,6 +60,9 @@ namespace FilmsDB.Domain.Migrations
                     b.Property<int>("UId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("Year")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -67,9 +70,9 @@ namespace FilmsDB.Domain.Migrations
                     b.ToTable("Films");
                 });
 
-            modelBuilder.Entity("FilmesDB.Domain.Models.Film", b =>
+            modelBuilder.Entity("FilmsDB.Domain.Models.Film", b =>
                 {
-                    b.HasOne("FilmesDB.Domain.Models.Category", "Category")
+                    b.HasOne("FilmsDB.Domain.Models.Category", "Category")
                         .WithMany("Films")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -78,7 +81,7 @@ namespace FilmsDB.Domain.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("FilmesDB.Domain.Models.Category", b =>
+            modelBuilder.Entity("FilmsDB.Domain.Models.Category", b =>
                 {
                     b.Navigation("Films");
                 });

@@ -11,7 +11,7 @@ using Prism.Commands;
 using Prism.Regions;
 using ReactiveUI;
 
-namespace FilmsDB.Ui.Views.Categories
+namespace FilmsDB.Ui.Views.Categories.ImportingFile
 {
     public class ImportFromFileViewModel : NavigationViewModelBase, IInitializable
     {
@@ -31,31 +31,59 @@ namespace FilmsDB.Ui.Views.Categories
 
             CreateCommand = new DelegateCommand(async () => await OnCreate(), () => !Name.IsNullOrEmpty() && !Name.IsWhiteSpace())
                 .ObservesProperty(() => Name);
+
+            ShouldValidate = true;
         }
 
+        /// <summary>
+        /// Категория
+        /// </summary>
         public Category Category
         {
             get => _category;
             set => this.RaiseAndSetIfChanged(ref _category, value);
         }
-
         private Category _category;
 
+        /// <summary>
+        /// Имя категории
+        /// </summary>
         public string? Name
         {
             get => _name;
             set => this.RaiseAndSetIfChanged(ref _name, value);
         }
-
         private string? _name;
 
+        /// <summary>
+        /// Файл
+        /// </summary>
         public string? FileName
         {
             get => _fileName;
             set => this.RaiseAndSetIfChanged(ref _fileName, value);
         }
-
         private string? _fileName;
+
+        /// <summary>
+        /// Следует выполнить сортировку
+        /// </summary>
+        public bool ShouldValidate
+        {
+            get => _shouldValidate;
+            set => this.RaiseAndSetIfChanged(ref _shouldValidate, value);
+        }
+        private bool _shouldValidate;
+
+        /// <summary>
+        /// Количество удаленных фильмов при сортировке
+        /// </summary>
+        public int RemovedFilmsCount
+        {
+            get => _removedFilmsCount;
+            set => this.RaiseAndSetIfChanged(ref _removedFilmsCount, value);
+        }
+        private int _removedFilmsCount;
 
         public ICommand CreateCommand { get; }
 
@@ -83,15 +111,46 @@ namespace FilmsDB.Ui.Views.Categories
 
             FileName = filePath;
 
-            Category? item = await _filmImportService.ImportFromJsonAsync(filePath);
+            Category? importFromFile = await _filmImportService.ImportFromJsonAsync(filePath);
 
-            if (item is null)
+            if (importFromFile is null)
             {
                 return;
             }
 
-            Category = item;
-            Name = item.Name;
+            Category newCategory;
+
+            if (ShouldValidate)
+            {
+                RemovedFilmsCount = 0;
+
+                // Пропустить фильмы без постера или с рейтингом = 0
+                newCategory = new Category()
+                {
+                    Id = importFromFile.Id,
+                    Name = importFromFile.Name,
+                    Films = new List<Film?>()
+                };
+
+                foreach (Film? film in importFromFile.Films)
+                {
+                    if (film.Rating == 0.0 || film.PosterUrl.IsNullOrEmpty())
+                    {
+                        RemovedFilmsCount++;
+                        continue;
+                    }
+
+                    newCategory.Films.Add(film);
+                }
+
+                Category = newCategory;
+                Name = newCategory.Name;
+
+                return;
+            }
+
+            Category = importFromFile;
+            Name = importFromFile.Name;
         }
 
         private async Task OnCreate()

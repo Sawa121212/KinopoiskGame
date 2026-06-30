@@ -9,15 +9,16 @@
              xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              xmlns:localization="clr-namespace:Common.Core.Localization;assembly=Common.Core"
              xmlns:categories="clr-namespace:FilmsDB.Ui.Views.Categories"
-             x:Class="FilmsDB.Ui.Views.Categories.AddNewCategoryView"
+             xmlns:creating="clr-namespace:FilmsDB.Ui.Views.Categories.Creating"
+             x:Class="FilmsDB.Ui.Views.Categories.Creating.AddNewCategoryView"
              mc:Ignorable="d"
              mvvm:ViewModelLocator.AutoWireViewModel="True"
              x:Name="TopicListControl"
-             x:DataType="categories:AddNewCategoryViewModel"
+             x:DataType="creating:AddNewCategoryViewModel"
              d:DesignWidth="800" d:DesignHeight="450">
 
     <Design.DataContext>
-      <categories:AddNewCategoryViewModel />
+      <creating:AddNewCategoryViewModel />
     </Design.DataContext>
 
     <Grid RowDefinitions="Auto, *, Auto">
