@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Xml.Linq;
 using FilmsDB.Domain.Models;
 using FilmsDB.Infrastructure.Interfaces.Services;
 
@@ -30,18 +31,18 @@ public class FilmImportService : IFilmImportService
             using JsonDocument jsonDoc = JsonDocument.Parse(json);
             JsonElement root = jsonDoc.RootElement;
 
-            List<Film> films = new();
+            List<Film?> films = new();
 
             // Определяем тип JSON структуры
             switch (root.ValueKind)
             {
-                case JsonValueKind.Object when root.TryGetProperty("docs", out var docsElement):
+                case JsonValueKind.Object when root.TryGetProperty("docs", out JsonElement docsElement):
                     // Формат: { "docs": [...] }
                     films = ParseFilmsFromArray(docsElement, category.Id);
 
                     break;
 
-                case JsonValueKind.Object when root.TryGetProperty("items", out var itemsElement):
+                case JsonValueKind.Object when root.TryGetProperty("items", out JsonElement itemsElement):
                     // Формат: { "items": [...] }
                     films = ParseFilmsFromArray(itemsElement, category.Id);
 
@@ -63,21 +64,23 @@ public class FilmImportService : IFilmImportService
         }
     }
 
-    private List<Film> ParseFilmsFromArray(JsonElement arrayElement, int categoryId)
+    private List<Film?> ParseFilmsFromArray(JsonElement arrayElement, int categoryId)
     {
-        var films = new List<Film>();
+        List<Film?> films = new();
 
-        foreach (var filmElement in arrayElement.EnumerateArray())
+        foreach (JsonElement filmElement in arrayElement.EnumerateArray())
         {
             try
             {
                 films.Add(new Film
                 {
                     Name = GetStringProperty(filmElement, "name")
-                           ?? GetStringProperty(filmElement, "alternativeName")
-                           ?? "Без названия",
+                        ?? GetStringProperty(filmElement, "alternativeName")
+                        ?? "Без названия",
                     Rating = GetNestedDoubleProperty(filmElement, "rating", "kp"),
                     PosterUrl = GetNestedStringProperty(filmElement, "poster", "url"),
+                    Year = GetNestedIntegerProperty(filmElement, "year"),
+                    UId = GetNestedIntegerProperty(filmElement, "id"),
                     CategoryId = categoryId
                 });
             }
@@ -93,18 +96,31 @@ public class FilmImportService : IFilmImportService
     // Вспомогательные методы для безопасного доступа к свойствам
     private string GetStringProperty(JsonElement element, string propertyName)
     {
-        return element.TryGetProperty(propertyName, out var prop)
+        return element.TryGetProperty(propertyName, out JsonElement prop)
             ? prop.GetString()
             : null;
     }
 
+    private int GetNestedIntegerProperty(JsonElement element, string propertyName)
+    {
+        if (element.TryGetProperty(propertyName, out JsonElement prop))
+        {
+            return prop.ValueKind == JsonValueKind.Number
+                ? prop.GetInt32()
+                : -1;
+        }
+
+        return -1;
+    }
+
     private double? GetNestedDoubleProperty(JsonElement element, string outerProp, string innerProp)
     {
-        if (element.TryGetProperty(outerProp, out var outer) && outer.TryGetProperty(innerProp, out var inner))
+        if (element.TryGetProperty(outerProp, out JsonElement outer)
+            && outer.TryGetProperty(innerProp, out JsonElement inner))
         {
             return inner.ValueKind == JsonValueKind.Number
                 ? inner.GetDouble()
-                : (double?)null;
+                : (double?) null;
         }
 
         return null;
@@ -112,7 +128,7 @@ public class FilmImportService : IFilmImportService
 
     private string GetNestedStringProperty(JsonElement element, string outerProp, string innerProp)
     {
-        if (element.TryGetProperty(outerProp, out var outer) && outer.TryGetProperty(innerProp, out var inner))
+        if (element.TryGetProperty(outerProp, out JsonElement outer) && outer.TryGetProperty(innerProp, out JsonElement inner))
         {
             return inner.GetString();
         }

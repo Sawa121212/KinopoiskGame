@@ -24,7 +24,7 @@
         <films:AddNewFilmViewModel />
     </Design.DataContext>
 
-    <Grid RowDefinitions="Auto, *, Auto">
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
         <!-- Back-->
         <Button Grid.Row="0" Command="{Binding MoveBackCommand}" Margin="0,3">
             <Button.Content>
@@ -74,7 +74,7 @@
                            VerticalAlignment="Center"
                            Grid.Row="0"
                            Grid.Column="0" />
-                <TextBox Text="{Binding Name, Mode=TwoWay}"
+                <TextBox Text="{Binding DataBaseCategory.Name, Mode=TwoWay}"
                          Classes="outline"
                          IsReadOnly="True"
                          UseFloatingWatermark="True"
@@ -82,13 +82,13 @@
                          Grid.Row="0"
                          Grid.Column="1" />
 
-                <TextBlock Text="Количество фильмов:"
+                <TextBlock Text="Количество считанных фильмов:"
                            Classes="Subtitle1"
                            FontWeight="Bold"
                            VerticalAlignment="Center"
                            Grid.Row="1"
                            Grid.Column="0" />
-                <TextBox Text="{Binding Category.Films.Count}"
+                <TextBox Text="{Binding NewFilms.Count}"
                          Classes="outline"
                          IsReadOnly="True"
                          Grid.Row="1"
@@ -97,7 +97,7 @@
 
         </controls:Card>
 
-        <Button Grid.Row="2"
+        <Button Grid.Row="3"
                 Content="Применить"
                 Command="{Binding CreateCommand}"
                 Margin="0,5">

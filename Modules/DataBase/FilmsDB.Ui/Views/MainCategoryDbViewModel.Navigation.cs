@@ -3,6 +3,8 @@ using Common.Core.Prism.Regions;
 using Confirmation.Module.Enums;
 using FilmsDB.Domain.Models;
 using FilmsDB.Ui.Views.Categories;
+using FilmsDB.Ui.Views.Categories.Creating;
+using FilmsDB.Ui.Views.Categories.ImportingFile;
 using FilmsDB.Ui.Views.Films;
 using Prism.Commands;
 using Prism.Regions;
@@ -79,7 +81,7 @@ namespace FilmsDB.Ui.Views
             RegionManager.RequestNavigate(RegionNameService.ContentRegionName, nameof(AddNewFilmView), parameter);
         }
 
-        private async void OnDeleteFilm(Film film)
+        private async void OnDeleteFilm(Film? film)
         {
             ConfirmationResultEnum result = await _confirmationService.ShowInfoAsync("Подтверждение",
                 $"Вы действительно хотите удалить вопрос?",

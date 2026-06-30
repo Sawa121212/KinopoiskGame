@@ -15,7 +15,7 @@ public class GameServices : IGameServices
     public IEnumerable<GameMode> CreateGameModes()
     {
         List<GameMode> gameModes = [];
-        List<Film> allFilms = [];
+        List<Film?> allFilms = [];
 
         List<Category> categories = _categoryService.GetAllCategories();
 
@@ -38,7 +38,7 @@ public class GameServices : IGameServices
     public IEnumerable<GameMode> CreateGameModes2()
     {
         List<GameMode> gameModes = [];
-        List<Film> allFilms = [];
+        List<Film?> allFilms = [];
 
         List<Category> categories = _categoryService.GetAllCategories();
 

@@ -2,29 +2,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="KinopoiskGame.App"
              xmlns:local="using:KinopoiskGame"
-             xmlns:avalonia="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
              RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+    <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
-  <!-- Используем стиль Material.Avalonia -->
-             <Application.Styles>
-                 <themes:MaterialTheme BaseTheme="Light" PrimaryColor="Blue" SecondaryColor="Indigo" />
-                 <avalonia:MaterialIconStyles />
+    <!-- Используем стиль Material.Avalonia -->
+    <Application.Styles>
+        <themes:MaterialTheme BaseTheme="Light" PrimaryColor="Blue" SecondaryColor="Indigo" />
+        <materialIcons:MaterialIconStyles />
 
-                 <!-- Custom -->
-                 <StyleInclude Source="avares://Common.Resources/CustomStyles.xaml" />
+        <!-- Custom -->
+        <StyleInclude Source="avares://Common.Resources/CustomStyles.xaml" />
 
-             </Application.Styles>
+    </Application.Styles>
 
-             <Application.Resources>
-                 <ResourceDictionary>
-                     <ResourceDictionary.MergedDictionaries>
-                         <ResourceInclude Source="avares://Common.Resources/GeneralResources.xaml" />
-                         <ResourceInclude Source="avares://Common.Resources/CustomToolKit.xaml" />
-                         <ResourceInclude Source="avares://Common.Resources/Geometries.axaml" />
-                         <!-- <ResourceInclude Source="avares://Notification.Module/Styles/NotificationStyle.axaml" /> -->
-                     </ResourceDictionary.MergedDictionaries>
-                 </ResourceDictionary>
-             </Application.Resources>
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="avares://Common.Resources/GeneralResources.xaml" />
+                <ResourceInclude Source="avares://Common.Resources/CustomToolKit.xaml" />
+                <ResourceInclude Source="avares://Common.Resources/Geometries.axaml" />
+                <!-- <ResourceInclude Source="avares://Notification.Module/Styles/NotificationStyle.axaml" /> -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

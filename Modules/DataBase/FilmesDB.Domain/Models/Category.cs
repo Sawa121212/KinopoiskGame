@@ -10,5 +10,5 @@ public class Category
     [Required]
     public string Name { get; set; }
 
-    public List<Film> Films { get; set; } = new();
+    public List<Film?> Films { get; set; } = new();
 }

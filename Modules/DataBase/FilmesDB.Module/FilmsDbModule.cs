@@ -4,6 +4,8 @@ using FilmsDB.Infrastructure.Managers;
 using FilmsDB.Infrastructure.Services;
 using FilmsDB.Ui.Views;
 using FilmsDB.Ui.Views.Categories;
+using FilmsDB.Ui.Views.Categories.Creating;
+using FilmsDB.Ui.Views.Categories.ImportingFile;
 using FilmsDB.Ui.Views.Films;
 using Prism.Ioc;
 using Prism.Modularity;

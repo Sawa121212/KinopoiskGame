@@ -16,15 +16,30 @@ namespace FilmsDB.Infrastructure.Services
         }
 
         /// <inheritdoc />
-        public async Task AddFilms(List<Film> films)
+        public async Task AddFilmsAsync(List<Film?> films)
         {
-            _dbContext.Films.AddRange(films);
-            await _dbContext.SaveChangesAsync();
+            bool shouldSave = false;
+
+            foreach (Film? film in films.Where(film => GetFilmById(film.UId) == null))
+            {
+                _dbContext.Films.Add(film);
+                shouldSave = true;
+            }
+
+            if (shouldSave)
+            {
+                await _dbContext.SaveChangesAsync();
+            }
         }
 
         /// <inheritdoc />
         public Film CreateFilm(Film film)
         {
+            if (film is null)
+            {
+                throw new NullReferenceException($"[{nameof(CreateFilm)}] {nameof(film)} is null");
+            }
+
             _dbContext.Films.Add(film);
             _dbContext.SaveChanges();
 
@@ -36,7 +51,7 @@ namespace FilmsDB.Infrastructure.Services
         {
             if (updatedFilm is null)
             {
-                return;
+                throw new NullReferenceException($"[{nameof(UpdateFilm)}] {nameof(updatedFilm)} is null");
             }
 
             UpdateFilm(updatedFilm.Id, updatedFilm);
@@ -45,7 +60,7 @@ namespace FilmsDB.Infrastructure.Services
         /// <inheritdoc />
         public void UpdateFilm(int filmId, Film updatedFilm)
         {
-            Film film = _dbContext.Films.Find(filmId);
+            Film? film = _dbContext.Films.Find(filmId);
 
             if (film == null)
             {
@@ -64,7 +79,7 @@ namespace FilmsDB.Infrastructure.Services
         }
 
         /// <inheritdoc />
-        public void DeleteFilm(Film film)
+        public void DeleteFilm(Film? film)
         {
             if (_dbContext.Films.Contains(film))
             {
@@ -75,7 +90,7 @@ namespace FilmsDB.Infrastructure.Services
         /// <inheritdoc />
         public void DeleteFilm(int filmId)
         {
-            Film film = _dbContext.Films.Find(filmId);
+            Film? film = _dbContext.Films.Find(filmId);
 
             if (film == null)
             {
@@ -87,20 +102,20 @@ namespace FilmsDB.Infrastructure.Services
         }
 
         /// <inheritdoc />
-        public Film GetFilmById(int filmId)
+        public Film? GetFilmById(int filmId)
         {
             return _dbContext.Films.Find(filmId);
         }
 
         /// <inheritdoc />
-        public List<Film> GetAllFilms()
+        public List<Film?> GetAllFilms()
         {
             return _dbContext.Films
                 .ToList();
         }
 
         /// <inheritdoc />
-        public List<Film> GetAllFilmsByCategoryId(int topicId)
+        public List<Film?> GetAllFilmsByCategoryId(int topicId)
         {
             return _dbContext.Films
                 .Where(q => q.CategoryId == topicId)
@@ -117,7 +132,7 @@ namespace FilmsDB.Infrastructure.Services
                 return null;
             }
 
-            List<Film> filmsWithPrice = topic.Films
+            List<Film?> filmsWithPrice = topic.Films
 
                 //.Where(q => q.Price == price)
                 .ToList();

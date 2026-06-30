@@ -2,7 +2,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:styles="clr-namespace:Material.Styles;assembly=Material.Styles"
              xmlns:mvvm="http://prismlibrary.com/"
              xmlns:converters="clr-namespace:Common.Ui.Converters;assembly=Common.Ui"
              xmlns:base="clr-namespace:Material.Styles.Themes.Base;assembly=Material.Styles"
@@ -14,9 +13,9 @@
              x:Class="Infrastructure.Ui.Views.Settings.BaseSettingsView"
              x:DataType="settings:BaseSettingsViewModel">
 
-    <!--<Design.DataContext>
-        <views:BaseSettingsViewModel />
-    </Design.DataContext>-->
+    <Design.DataContext>
+        <settings:BaseSettingsViewModel />
+    </Design.DataContext>
 
     <UserControl.Resources>
         <converters:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />

@@ -40,7 +40,7 @@
                         <ToggleButton Grid.Column="0"
                                       x:Name="VisibleFilter"
                                       Classes="Icon"
-                                      Content="{materialIcons:MaterialIconExt Filter}"
+                                      Content="{materialIcons:MaterialIconExt Kind=Filter}"
                                       ClickMode="Press"
                                       ToolTip.Tip="Фильтр" />
                         <TextBox Grid.Column="1"
@@ -59,12 +59,12 @@
                                     <Button Classes="Flat"
                                             Width="{Binding $self.Bounds.Height}"
                                             Padding="4"
-                                            Content="{materialIcons:MaterialIconExt CloseThick, Size=16}"
+                                            Content="{materialIcons:MaterialIconExt Kind=CloseThick, Size=16}"
                                             Command="{Binding ClearFoundElementsCommand}" />
                                     <Button Classes="Flat"
                                             Width="{Binding $self.Bounds.Height}"
                                             Padding="4"
-                                            Content="{materialIcons:MaterialIconExt Search, Size=24}"
+                                            Content="{materialIcons:MaterialIconExt Kind=Search, Size=24}"
                                             Command="{Binding FindCategoriesCommand, Mode=OneWay}" />
                                 </StackPanel>
                             </TextBox.InnerRightContent>
@@ -146,8 +146,8 @@
                                         <MenuItem Height="32" Width="32"
                                                   Background="Blue"
                                                   CornerRadius="32"
-                                                  Header="{materialIcons:MaterialIconExt DotsVertical, Size=24}">
-                                            <MenuItem Header="Добавить фильм"
+                                                  Header="{materialIcons:MaterialIconExt Kind=DotsVertical, Size=24}">
+                                            <MenuItem Header="Добавить фильмы"
                                                       Command="{Binding DataContext.AddNewFilmCommand, ElementName=TopicListControl}"
                                                       CommandParameter="{Binding}">
                                                 <MenuItem.Icon>

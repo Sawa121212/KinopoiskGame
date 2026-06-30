@@ -24,7 +24,7 @@ namespace FilmsDB.Ui.Views
             _categoryService = CategoryService;
             _filmService = FilmService;
             Categories = new ObservableCollection<Category>();
-            Films = new ObservableCollection<Film>();
+            Films = new ObservableCollection<Film?>();
 
             // Category commands
             AddNewCategoryCommand = new DelegateCommand(OnAddNewCategory);
@@ -52,13 +52,13 @@ namespace FilmsDB.Ui.Views
 
         private ObservableCollection<Category> _categories;
 
-        public ObservableCollection<Film> Films
+        public ObservableCollection<Film?> Films
         {
             get => _films;
             set => this.RaiseAndSetIfChanged(ref _films, value);
         }
 
-        private ObservableCollection<Film> _films;
+        private ObservableCollection<Film?> _films;
 
         public DelegateCommand ImportFromFileCommand { get; }
 

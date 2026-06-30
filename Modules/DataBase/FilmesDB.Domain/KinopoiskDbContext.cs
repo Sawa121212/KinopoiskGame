@@ -8,7 +8,7 @@ namespace FilmsDB.Domain;
 [DbConfigurationType(typeof(KinopoiskDbConfiguration))]
 public sealed class KinopoiskDbContext : DbContext
 {
-    public Microsoft.EntityFrameworkCore.DbSet<Film> Films { get; set; }
+    public Microsoft.EntityFrameworkCore.DbSet<Film?> Films { get; set; }
     public Microsoft.EntityFrameworkCore.DbSet<Category> Categories { get; set; }
 
     public KinopoiskDbContext()

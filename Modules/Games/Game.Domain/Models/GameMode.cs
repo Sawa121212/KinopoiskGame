@@ -6,7 +6,7 @@ namespace Game.Domain.Models;
 
 public class GameMode
 {
-    public GameMode(string name, List<Film> films)
+    public GameMode(string name, List<Film?> films)
     {
         Name = name;
         _allFilms = films;
@@ -16,7 +16,7 @@ public class GameMode
 
     public int FilmsCount => _allFilms.Count();
 
-    public IEnumerable<Film> GameFilms { get; private set; }
+    public IEnumerable<Film?> GameFilms { get; private set; }
 
     public int GameFilmsCount => GameFilms.Count();
 
@@ -28,13 +28,13 @@ public class GameMode
             return true;
         }
 
-        List<Film> currentFilms = new();
+        List<Film?> currentFilms = new();
 
         while (count > currentFilms.Count)
         {
             int index = RandomGenerator.GetRandom().Next(0, FilmsCount);
 
-            Film film = _allFilms[index];
+            Film? film = _allFilms[index];
 
             if (currentFilms.Contains(film))
             {
@@ -49,5 +49,5 @@ public class GameMode
         return true;
     }
 
-    private readonly List<Film> _allFilms;
+    private readonly List<Film?> _allFilms;
 }

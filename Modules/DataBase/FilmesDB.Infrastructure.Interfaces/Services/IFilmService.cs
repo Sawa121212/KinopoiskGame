@@ -7,13 +7,13 @@ namespace FilmsDB.Infrastructure.Interfaces.Services
     /// </summary>
     public interface IFilmService
     {
-        Task AddFilms(List<Film> categoryFilms);
+        Task AddFilmsAsync(List<Film?> categoryFilms);
 
         /// <summary>
         /// Создание нового вопроса
         /// </summary>
         /// <param name="question"></param>
-        public Film CreateFilm(Film question);
+        public Film CreateFilm(Film? question);
 
         /// <summary>
         /// Редактирование существующего вопроса
@@ -32,7 +32,7 @@ namespace FilmsDB.Infrastructure.Interfaces.Services
         /// Удаление вопроса
         /// </summary>
         /// <param name="question">Вопрос</param>
-        void DeleteFilm(Film question);
+        void DeleteFilm(Film? question);
 
         /// <summary>
         /// Удаление вопроса
@@ -45,20 +45,20 @@ namespace FilmsDB.Infrastructure.Interfaces.Services
         /// </summary>
         /// <param name="questionId"></param>
         /// <returns></returns>
-        Film GetFilmById(int questionId);
+        Film? GetFilmById(int questionId);
 
         /// <summary>
         /// Получение всех
         /// </summary>
         /// <returns></returns>
-        List<Film> GetAllFilms();
+        List<Film?> GetAllFilms();
 
         /// <summary>
         /// Получение всех вопросов по идентификатору темы
         /// </summary>
         /// <param name="topicId"></param>
         /// <returns></returns>
-        List<Film> GetAllFilmsByCategoryId(int topicId);
+        List<Film?> GetAllFilmsByCategoryId(int topicId);
 
         /// <summary>
         /// Получить случайный вопрос из темы по указанной цене

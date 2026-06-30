@@ -1,4 +1,6 @@
-﻿using Common.Core.Views;
+﻿namespace Game.Ui.Views;
+
+using Common.Core.Views;
 using FilmsDB.Domain.Models;
 using Prism.Regions;
 using ReactiveUI;
@@ -6,8 +8,6 @@ using System.Net;
 using Avalonia.Media.Imaging;
 using System.Windows.Input;
 using Prism.Commands;
-
-namespace Game.Ui.Views;
 
 public class TestFilmViewModel : NavigationViewModelBase
 {
@@ -21,6 +21,7 @@ public class TestFilmViewModel : NavigationViewModelBase
         Film = new Film()
         {
             Name = "Артур, ты король",
+            Year = 2024,
             PosterUrl = "https://image.openmoviedb.com/kinopoisk-images/10809116/02f5c9fa-8ed2-455b-9861-1a01252d73f4/orig",
             Rating = 8.301
         };
@@ -47,7 +48,6 @@ public class TestFilmViewModel : NavigationViewModelBase
         get => _film;
         set => this.RaiseAndSetIfChanged(ref _film, value);
     }
-
     private Film _film;
 
     public bool HasShowRating
@@ -55,7 +55,6 @@ public class TestFilmViewModel : NavigationViewModelBase
         get => _hasShowRating;
         set => this.RaiseAndSetIfChanged(ref _hasShowRating, value);
     }
-
     private bool _hasShowRating;
 
     public ICommand ShowRatingCommand { get; }
@@ -95,13 +94,14 @@ public class TestFilmViewModel : NavigationViewModelBase
         // test
         Random rnd = new();
         int value = rnd.Next(0, 10);
+
         Film = new Film()
         {
-            Name = $"Артур, ты король {value}",
+            Name = $"Test 'Артур, ты король'",
+            Year = value,
             PosterUrl = "https://image.openmoviedb.com/kinopoisk-images/10809116/02f5c9fa-8ed2-455b-9861-1a01252d73f4/orig",
             Rating = value
         };
-       
 
         await DownloadImage(Film.PosterUrl).ConfigureAwait(true);
     }

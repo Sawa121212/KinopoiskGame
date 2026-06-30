@@ -1,10 +1,12 @@
-﻿using System.Windows.Input;
+﻿using System.Collections.ObjectModel;
+using System.Windows.Input;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Controls.Notifications;
 using Avalonia.Platform.Storage;
 using Common.Core.Prism;
+using Common.Core.Prism.Regions;
 using Common.Core.Views;
 using Common.Extensions;
 using FilmsDB.Domain.Models;
@@ -23,50 +25,70 @@ namespace FilmsDB.Ui.Views.Films
         public AddNewFilmViewModel(
             IRegionManager regionManager,
             INotificationService notificationService,
-            IFilmService questionService)
+            IFilmImportService filmImportService,
+            IFilmService filmService)
             : base(regionManager)
         {
             _notificationService = notificationService;
-            _questionService = questionService;
+            _filmImportService = filmImportService;
+            _filmService = filmService;
 
             SelectFileCommand = new DelegateCommand<TopLevel>(async (o) => await OnSelectFile(o));
 
-            CreateCommand = new DelegateCommand(async () => await OnCreate(), () => !Name.IsNullOrEmpty() && !Name.IsWhiteSpace())
-                .ObservesProperty(() => Name);
+            CreateCommand = new DelegateCommand(async () => await OnDone());
         }
 
-        public Category Category
+        public Category DataBaseCategory
         {
-            get => _category;
-            set => this.RaiseAndSetIfChanged(ref _category, value);
+            get => _dataBaseCategory;
+            set => this.RaiseAndSetIfChanged(ref _dataBaseCategory, value);
         }
-
-        private Category _category;
-
-        public string? Name
-        {
-            get => _name;
-            set => this.RaiseAndSetIfChanged(ref _name, value);
-        }
-
-        private string? _name;
+        private Category _dataBaseCategory;
 
         public string? FileName
         {
             get => _fileName;
             set => this.RaiseAndSetIfChanged(ref _fileName, value);
         }
-
         private string? _fileName;
+
+        public ObservableCollection<Film?> NewFilms
+        {
+            get => _newFilms;
+            set => this.RaiseAndSetIfChanged(ref _newFilms, value);
+        }
+        private ObservableCollection<Film?> _newFilms;
 
         public ICommand CreateCommand { get; }
 
         public DelegateCommand<TopLevel> SelectFileCommand { get; }
 
         /// <inheritdoc />
-        public void Initialize()
+        public override void OnNavigatedTo(NavigationContext navigationContext)
         {
-            Category = new Category();
+            base.OnNavigatedTo(navigationContext);
+
+            // Initialize parameter
+            object? resultParameter = navigationContext.Parameters[NavigationParameterService.InitializeParameter];
+
+            if (resultParameter is Category category)
+            {
+                DataBaseCategory = category;
+            }
+        }
+
+        /// <inheritdoc />
+        public override void OnNavigatedFrom(NavigationContext navigationContext)
+        {
+            navigationContext.Parameters.Add(NavigationParameterService.ResultParameter, true);
+            FileName = null;
+        }
+
+        /// <inheritdoc />
+        protected override void GoBackOrder()
+        {
+            RegionManager.RequestNavigate(RegionNameService.ShellRegionName, "MainView");
+            base.GoBackOrder();
         }
 
         /// <summary>
@@ -85,41 +107,28 @@ namespace FilmsDB.Ui.Views.Films
 
             FileName = filePath;
 
-            Category? item = await _filmImportService.ImportFromJsonAsync(filePath);
+            Category? fileCategory = await _filmImportService.ImportFromJsonAsync(filePath);
 
-            if (item is null)
+            if (fileCategory is null)
             {
                 return;
             }
 
-            Category = item;
-            Name = item.Name;
+            NewFilms = new ObservableCollection<Film>(fileCategory.Films);
         }
 
-        private async Task OnCreate()
+        private async Task OnDone()
         {
-            Category.Name = _name.Trim();
+            foreach (Film film in _newFilms)
+            {
+                film.Category = _dataBaseCategory;
+                film.CategoryId = _dataBaseCategory.Id;
 
-            await _categoryService.CreateCategoryAsync(Category);
+                _dataBaseCategory.Films.Add(film);
+            }
 
-            //await _filmService.AddFilms(Category.Films);
-
+            await _filmService.AddFilmsAsync(_dataBaseCategory.Films);
             MoveBackCommand.Execute(null);
-        }
-
-        /// <inheritdoc />
-        public override void OnNavigatedTo(NavigationContext navigationContext)
-        {
-            base.OnNavigatedTo(navigationContext);
-            Initialize();
-        }
-
-        /// <inheritdoc />
-        public override void OnNavigatedFrom(NavigationContext navigationContext)
-        {
-            navigationContext.Parameters.Add(NavigationParameterService.ResultParameter, true);
-            FileName = null;
-            Name = null;
         }
 
         private async Task<string?> GetFilePath(TopLevel topLevel)
@@ -161,11 +170,12 @@ namespace FilmsDB.Ui.Views.Films
             };
         }
 
+        private Category _importedCategory;
+
         private readonly INotificationService _notificationService;
-        private readonly IFilmService _questionService;
+        private readonly IFilmService _filmService;
 
         private readonly ICategoryService _categoryService;
-        private readonly IFilmService _filmService;
         private readonly IFilmImportService _filmImportService;
     }
 }

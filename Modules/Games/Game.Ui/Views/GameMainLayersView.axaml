@@ -19,6 +19,7 @@
 
     <Grid RowDefinitions="Auto, *">
         <Button Content="Назад"
+                Command="{Binding MoveBackCommand}"
                 Classes="Focusable"
                 Grid.Row="0"
                 XYFocus.Left="{Binding #last}" />
