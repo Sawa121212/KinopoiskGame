@@ -297,3 +297,11 @@ $RECYCLE.BIN/
 
 #Git diff
 *.orig
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
+
+# Distribution / packaging
+.Python
