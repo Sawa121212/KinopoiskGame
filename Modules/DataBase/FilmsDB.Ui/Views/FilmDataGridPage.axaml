@@ -1,0 +1,66 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mvvm="http://prismlibrary.com/"
+             xmlns:styles="clr-namespace:Material.Styles;assembly=Material.Styles"
+             xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:models="clr-namespace:FilmsDB.Domain.Models;assembly=FilmsDB.Domain"
+             xmlns:views="clr-namespace:FilmsDB.Ui.Views"
+             xmlns:views1="clr-namespace:FilmsDB.Ui.Views"
+             x:Class="FilmsDB.Ui.Views.FilmDataGridPage"
+             mc:Ignorable="d"
+             mvvm:ViewModelLocator.AutoWireViewModel="True"
+             x:Name="QuestionDataGridControl"
+             x:DataType="views1:MainCategoryDbViewModel"
+             d:DesignWidth="800" d:DesignHeight="450">
+
+    <Design.DataContext>
+        <views1:MainCategoryDbViewModel />
+    </Design.DataContext>
+
+    <DataGrid ItemsSource="{Binding Films}"
+              CanUserResizeColumns="True"
+              CanUserReorderColumns="True"
+              AutoGenerateColumns="False"
+              IsReadOnly="True"
+              ScrollViewer.VerticalScrollBarVisibility="Visible"
+              ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+              Margin="3">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="CategoryId"
+                                Binding="{Binding CategoryId}" />
+
+            <DataGridTextColumn Header="Category"
+                                Binding="{Binding Category.Name}" />
+
+            <DataGridTemplateColumn Header="Name"
+                                    Width="*">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate DataType="models:Film">
+                        <TextBlock Text="{Binding Name}"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+
+            <DataGridTemplateColumn Header="Rating"
+                                    Width="*">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate DataType="models:Film">
+                        <TextBlock Text="{Binding Category}"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+
+            <DataGridTextColumn Header="Price"
+                                Binding="{Binding Rating}" />
+        </DataGrid.Columns>
+    </DataGrid>
+
+</UserControl>

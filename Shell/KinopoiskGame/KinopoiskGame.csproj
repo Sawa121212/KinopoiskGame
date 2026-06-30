@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.2" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.2" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.2" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.2" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.3.2">
+      <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
+      <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.3.2" />
+    <PackageReference Include="Prism.Avalonia" Version="8.1.97.11073" />
+    <PackageReference Include="Prism.DryIoc.Avalonia" Version="8.1.97.11073" />
+    <PackageReference Include="Material.Avalonia" Version="3.12.0" />
+    <PackageReference Include="Material.Icons.Avalonia" Version="2.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Core\Common.Core.csproj" />
+    <ProjectReference Include="..\..\Common\Common.Resources\Common.Resources.csproj" />
+    <ProjectReference Include="..\..\Common\Common.Ui\Common.Ui.csproj" />
+    <ProjectReference Include="..\..\Modules\AppModules\Confirmation\Confirmation.Module\Confirmation.Module.csproj" />
+    <ProjectReference Include="..\..\Modules\AppModules\Infrastructure\Infrastructure.Module\Infrastructure.Module.csproj" />
+    <ProjectReference Include="..\..\Modules\AppModules\Notification\Notification.Module\Notification.Module.csproj" />
+    <ProjectReference Include="..\..\Modules\DataBase\FilmesDB.Domain\FilmsDB.Domain.csproj" />
+    <ProjectReference Include="..\..\Modules\DataBase\FilmesDB.Module\FilmsDB.Module.csproj" />
+    <ProjectReference Include="..\..\Modules\Games\Game.Module\Game.Module.csproj" />
+    <ProjectReference Include="..\..\Modules\Games\Game.Ui\Game.Ui.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Language.Designer.cs">
+      <DependentUpon>Language.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Language.resx">
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

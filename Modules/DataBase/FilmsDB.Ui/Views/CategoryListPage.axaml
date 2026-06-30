@@ -1,0 +1,268 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mvvm="http://prismlibrary.com/"
+             mvvm:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:styles="clr-namespace:Material.Styles;assembly=Material.Styles"
+             xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
+             xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+             xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:i="clr-namespace:Avalonia.Xaml.Interactivity;assembly=Avalonia.Xaml.Interactivity"
+             xmlns:textBoxes="clr-namespace:Common.Ui.Behaviors.TextBoxes;assembly=Common.Ui"
+             xmlns:views="clr-namespace:FilmsDB.Ui.Views"
+             xmlns:models="clr-namespace:FilmsDB.Domain.Models;assembly=FilmsDB.Domain"
+             x:Class="FilmsDB.Ui.Views.CategoryListPage"
+             mc:Ignorable="d"
+             x:Name="TopicListControl"
+             x:DataType="views:MainCategoryDbViewModel"
+             d:DesignWidth="800" d:DesignHeight="450">
+
+    <Design.DataContext>
+        <views:MainCategoryDbViewModel />
+    </Design.DataContext>
+
+    <Grid RowDefinitions="Auto,Auto,Auto,*"
+          Margin="5">
+
+        <!-- Поиск -->
+        <Grid Grid.Row="0"
+              RowDefinitions="*,*"
+              Margin="0,3">
+            <Panel Grid.Row="0"
+                   VerticalAlignment="Center"
+                   Height="36">
+                <controls:Card Classes="Dark"
+                               VerticalAlignment="Center"
+                               CornerRadius="32"
+                               Padding="0">
+                    <Grid ColumnDefinitions="Auto, *">
+                        <ToggleButton Grid.Column="0"
+                                      x:Name="VisibleFilter"
+                                      Classes="Icon"
+                                      Content="{materialIcons:MaterialIconExt Kind=Filter}"
+                                      ClickMode="Press"
+                                      ToolTip.Tip="Фильтр" />
+                        <TextBox Grid.Column="1"
+                                 Classes="Solo"
+                                 HorizontalAlignment="Stretch"
+                                 Margin="0"
+                                 Watermark="Поиск"
+                                 Text="{Binding FilterText, Mode=TwoWay}">
+                            <TextBox.Styles>
+                                <Style Selector="TextBox.Solo /template/ Grid#PART_InnerRoot">
+                                    <Setter Property="Margin" Value="8,4" />
+                                </Style>
+                            </TextBox.Styles>
+                            <TextBox.InnerRightContent>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Classes="Flat"
+                                            Width="{Binding $self.Bounds.Height}"
+                                            Padding="4"
+                                            Content="{materialIcons:MaterialIconExt Kind=CloseThick, Size=16}"
+                                            Command="{Binding ClearFoundElementsCommand}" />
+                                    <Button Classes="Flat"
+                                            Width="{Binding $self.Bounds.Height}"
+                                            Padding="4"
+                                            Content="{materialIcons:MaterialIconExt Kind=Search, Size=24}"
+                                            Command="{Binding FindCategoriesCommand, Mode=OneWay}" />
+                                </StackPanel>
+                            </TextBox.InnerRightContent>
+                            <i:Interaction.Behaviors>
+                                <textBoxes:TextBoxTextChangedBehavior Command="{Binding FindCategoriesCommand}" />
+                            </i:Interaction.Behaviors>
+                        </TextBox>
+                    </Grid>
+                </controls:Card>
+            </Panel>
+            <Panel Grid.Row="1">
+                <WrapPanel IsVisible="{Binding ElementName=VisibleFilter, Path= IsChecked}"
+                           VerticalAlignment="Center" Margin="0,5">
+                    <CheckBox IsChecked="{Binding ByName}" Margin="5,3">Поиск по имени владельца лицензии</CheckBox>
+                    <CheckBox IsChecked="{Binding ByLicenseType}" Margin="5,3">Поиск по типу лицензии</CheckBox>
+                    <CheckBox IsChecked="{Binding ByOrganization}" Margin="5,3">Поиск по организации</CheckBox>
+                    <CheckBox IsChecked="{Binding ByMachineCode}" Margin="5,3">Поиск по аппаратным данным</CheckBox>
+                </WrapPanel>
+            </Panel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal"
+                        Spacing="3">
+                <Button Classes="Flat"
+                        Content="Создать новую категорию"
+                        HorizontalAlignment="Right"
+                        Command="{Binding AddNewCategoryCommand, Mode=OneWay}" />
+                <Button Classes="Flat"
+                        Content="Импортировать из файла"
+                        HorizontalAlignment="Right"
+                        Command="{Binding ImportFromFileCommand, Mode=OneWay}" />
+            </StackPanel>
+
+        </Grid>
+
+        <Separator Grid.Row="2" />
+
+        <!-- Список категорий -->
+        <ScrollViewer Grid.Row="3"
+                      Classes="Modern"
+                      VerticalScrollBarVisibility="Visible"
+                      HorizontalScrollBarVisibility="Disabled"
+                      IsVisible="{Binding !!Categories.Count}">
+            <ItemsControl ItemsSource="{Binding Categories, Mode=OneWay}"
+                          assists:ShadowAssist.ShadowDepth="Depth1"
+                          assists:ShadowAssist.Darken="True"
+                          Margin="0,0,3,0">
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate DataType="{x:Type models:Category}">
+                        <controls:Card assists:ShadowAssist.ShadowDepth="Depth0"
+                                       Margin="3,3,8,3">
+                            <Grid RowDefinitions="Auto, *"
+                                  Margin="3">
+
+                                <!-- Имя темы -->
+                                <Grid Grid.Row="0"
+                                      ColumnDefinitions="Auto,*,Auto">
+                                    <materialIcons:MaterialIcon Grid.Column="0"
+                                                                Kind="ClipboardOutline"
+                                                                VerticalAlignment="Top"
+                                                                Height="32" Width="32"
+                                                                Margin="0,0,3,0" />
+
+                                    <TextBlock Grid.Column="1"
+                                               Classes="Headline6"
+                                               Text="{Binding Name, Mode=OneWay}"
+                                               TextWrapping="Wrap"
+                                               VerticalAlignment="Center"
+                                               Margin="3,0" />
+
+                                    <!-- Опции -->
+                                    <Menu Grid.Column="2"
+                                          Height="32"
+                                          VerticalAlignment="Top"
+                                          Padding="0"
+                                          Margin="0">
+                                        <MenuItem Height="32" Width="32"
+                                                  Background="Blue"
+                                                  CornerRadius="32"
+                                                  Header="{materialIcons:MaterialIconExt Kind=DotsVertical, Size=24}">
+                                            <MenuItem Header="Добавить фильмы"
+                                                      Command="{Binding DataContext.AddNewFilmCommand, ElementName=TopicListControl}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <materialIcons:MaterialIcon Kind="Add"
+                                                                                Width="16" Height="16" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Редактировать имя категории"
+                                                      Command="{Binding DataContext.EditCategoryCommand, ElementName=TopicListControl}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <materialIcons:MaterialIcon Kind="Edit"
+                                                                                Width="16" Height="16" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                            <MenuItem Header="Удалить"
+                                                      Foreground="{DynamicResource MaterialValidationErrorBrush}"
+                                                      Command="{Binding DataContext.DeleteCategoryCommand, ElementName=TopicListControl}"
+                                                      CommandParameter="{Binding}">
+                                                <MenuItem.Icon>
+                                                    <materialIcons:MaterialIcon Kind="Delete"
+                                                                                Width="16" Height="16" />
+                                                </MenuItem.Icon>
+                                            </MenuItem>
+                                        </MenuItem>
+                                    </Menu>
+                                </Grid>
+
+                                <!-- Вопросы (Expander)-->
+                                <Expander Grid.Row="1"
+                                          Margin="3">
+                                    <Expander.Header>
+                                        <Grid ColumnDefinitions="Auto,Auto,*">
+                                            <materialIcons:MaterialIcon Grid.Column="0"
+                                                                        Kind="QuestionAnswer"
+                                                                        Width="25"
+                                                                        Height="25" />
+                                            <TextBlock Grid.Column="1"
+                                                       Classes="Subtitle1"
+                                                       Text="Фильмы"
+                                                       Margin="3,0" />
+                                            <TextBlock Grid.Column="2"
+                                                       Classes="Subtitle1"
+                                                       Text="{Binding StringFormat=({0}), Path=Films.Count}"
+                                                       Margin="3,0" />
+                                        </Grid>
+                                    </Expander.Header>
+
+                                    <Grid Margin="0,5,0,7">
+                                        <!-- Сообщение об отсутствии фильмов -->
+                                        <Grid ColumnDefinitions="Auto,*"
+                                              IsVisible="{Binding !Films.Count}"
+                                              Margin="10, 5">
+                                            <materialIcons:MaterialIcon Kind="AlertCircle"
+                                                                        Foreground="{DynamicResource MaterialValidationErrorBrush}" />
+                                            <TextBlock Grid.Column="1"
+                                                       Classes="Subtitle1"
+                                                       Text="Фильмы не найдены"
+                                                       Foreground="{DynamicResource MaterialValidationErrorBrush}"
+                                                       Margin="3" />
+                                        </Grid>
+
+                                        <!-- Вопросы -->
+                                        <ListBox ItemsSource="{Binding Films, Mode=OneWay}"
+                                                 ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                                                 IsVisible="{Binding !!Films.Count}">
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate DataType="{x:Type models:Film}">
+                                                    <Expander Margin="10,3,10,3"
+                                                              assists:ShadowAssist.ShadowDepth="Depth1">
+                                                        <Expander.Header>
+                                                            <Grid ColumnDefinitions="Auto,*">
+                                                                <StackPanel Grid.Column="0"
+                                                                            Orientation="Horizontal"
+                                                                            HorizontalAlignment="Left"
+                                                                            VerticalAlignment="Center">
+                                                                    <materialIcons:MaterialIcon Kind="Circle"
+                                                                                                Width="18"
+                                                                                                Height="18" />
+                                                                    <TextBlock Classes="Subtitle2"
+                                                                               Text="{Binding Name}"
+                                                                               HorizontalAlignment="Stretch"
+                                                                               Margin="5,0" />
+                                                                </StackPanel>
+                                                            </Grid>
+                                                        </Expander.Header>
+                                                    </Expander>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+                                    </Grid>
+
+                                </Expander>
+                            </Grid>
+                        </controls:Card>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <!-- Сообщение об отсутствии категорий -->
+        <Grid Grid.Row="3"
+              ColumnDefinitions="Auto, *"
+              VerticalAlignment="Center"
+              HorizontalAlignment="Center"
+              IsVisible="{Binding !Categories.Count}"
+              Margin="10, 5">
+            <materialIcons:MaterialIcon Grid.Column="0"
+                                        Kind="AlertCircle"
+                                        Foreground="{DynamicResource ErrorColorBrush}" />
+            <TextBlock Grid.Column="1"
+                       Classes="Subtitle1"
+                       Text="Категории не найдены"
+                       Margin="3" />
+        </Grid>
+    </Grid>
+
+</UserControl>

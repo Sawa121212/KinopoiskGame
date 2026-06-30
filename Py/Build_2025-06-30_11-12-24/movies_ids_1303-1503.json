@@ -1,0 +1,2390 @@
+[
+  {
+    "id": 1306,
+    "name": "Дорогой эгоист",
+    "alternativeName": "Dear Brat",
+    "year": 1951,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/74af0c04-203c-4ac8-bfb3-9de32c5c1ad1/600x900"
+    }
+  },
+  {
+    "id": 1313,
+    "name": "Цыплёнок каждое воскресенье",
+    "alternativeName": "Chicken Every Sunday",
+    "year": 1949,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/369036d9-fd2a-4a59-85e7-9664f5ddd15c/600x900"
+    }
+  },
+  {
+    "id": 1312,
+    "name": "Отец был защитником",
+    "alternativeName": "Father Was a Fullback",
+    "year": 1949,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/50eb8d2f-c3d7-46ae-84e4-b3d8e35cedde/600x900"
+    }
+  },
+  {
+    "id": 1307,
+    "name": "Ни секунды скуки",
+    "alternativeName": "Never a Dull Moment",
+    "year": 1950,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/dd8fc76c-d33d-444c-9696-78179b72fb69/600x900"
+    }
+  },
+  {
+    "id": 1303,
+    "name": "Только для тебя",
+    "alternativeName": "Just for You",
+    "year": 1952,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/50f013c0-2e8c-4f72-bc9d-5a2ad8ef102b/600x900"
+    }
+  },
+  {
+    "id": 1308,
+    "name": "Большой куш",
+    "alternativeName": "The Jackpot",
+    "year": 1950,
+    "rating": {
+      "kp": 6.757
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/e3cf1b61-109a-446d-8b4d-1ef9c1775b51/600x900"
+    }
+  },
+  {
+    "id": 1314,
+    "name": "Скудда-у! Скудда-эй!",
+    "alternativeName": "Scudda Hoo! Scudda Hay!",
+    "year": 1948,
+    "rating": {
+      "kp": 6.619
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/ebe70afe-da24-439d-9536-2f1ec2d6be2f/600x900"
+    }
+  },
+  {
+    "id": 1304,
+    "name": "История Роуз Боул",
+    "alternativeName": "The Rose Bowl Story",
+    "year": 1952,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4303601/b89e5c57-8402-43c2-a6e3-ddd0c8744e6e/600x900"
+    }
+  },
+  {
+    "id": 1310,
+    "name": "Не надо грустных песен для меня",
+    "alternativeName": "No Sad Songs for Me",
+    "year": 1950,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10893610/51dfa6e6-e862-47b5-81ea-282ef31e45d5/600x900"
+    }
+  },
+  {
+    "id": 1316,
+    "name": "Призрак и миссис Мьюр",
+    "alternativeName": "The Ghost and Mrs. Muir",
+    "year": 1947,
+    "rating": {
+      "kp": 7.584
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1777765/083a23bf-3350-47f4-b119-5b8c9d240cbc/600x900"
+    }
+  },
+  {
+    "id": 1305,
+    "name": "Голубая вуаль",
+    "alternativeName": "The Blue Veil",
+    "year": 1951,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/4c72181c-21b1-49a5-b411-0097e1b12c44/600x900"
+    }
+  },
+  {
+    "id": 1311,
+    "name": "Незрелое обещание",
+    "alternativeName": "The Green Promise",
+    "year": 1949,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/c9a9d62a-871e-44ff-806d-fc6462ae7ed4/600x900"
+    }
+  },
+  {
+    "id": 1309,
+    "name": "Очень личное",
+    "alternativeName": "Our Very Own",
+    "year": 1950,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/418e2472-1281-4806-943b-1a5125b6c56e/600x900"
+    }
+  },
+  {
+    "id": 1317,
+    "name": "Чудо на 34-й улице",
+    "alternativeName": "Miracle on 34th Street",
+    "year": 1947,
+    "rating": {
+      "kp": 7.833
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/f1f4908d-aa8d-490c-8a7b-ed3b98d65695/600x900"
+    }
+  },
+  {
+    "id": 1315,
+    "name": "Обломки",
+    "alternativeName": "Driftwood",
+    "year": 1947,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/7e72865d-54df-42a9-bfa8-e8076ff2bc1c/600x900"
+    }
+  },
+  {
+    "id": 1319,
+    "name": "Вечное завтра",
+    "alternativeName": "Tomorrow Is Forever",
+    "year": 1946,
+    "rating": {
+      "kp": 6.656
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/e0972b8c-53f0-4631-af44-299105b125cd/600x900"
+    }
+  },
+  {
+    "id": 1320,
+    "name": "Счастливая земля",
+    "alternativeName": "Happy Land",
+    "year": 1943,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10592371/085fe259-a8ed-4036-bf39-2cace846c590/600x900"
+    }
+  },
+  {
+    "id": 1321,
+    "name": "Последние Дни Чэйзена",
+    "alternativeName": "Off the Menu: The Last Days of Chasen's",
+    "year": 1997,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/aba46688-9679-4470-b339-3a6b85b73983/600x900"
+    }
+  },
+  {
+    "id": 1322,
+    "name": "Уилли и Фил",
+    "alternativeName": "Willie & Phil",
+    "year": 1980,
+    "rating": {
+      "kp": 6.175
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/52fde9cd-e336-46de-8ce2-37ebf9928ad6/600x900"
+    }
+  },
+  {
+    "id": 1324,
+    "name": null,
+    "alternativeName": "I'm a Stranger Here Myself",
+    "year": 1974,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1318,
+    "name": "Невеста в сапогах",
+    "alternativeName": "The Bride Wore Boots",
+    "year": 1946,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/993aaa8e-a838-43e8-995b-ac49ba275cf7/600x900"
+    }
+  },
+  {
+    "id": 1325,
+    "name": "Кандидат",
+    "alternativeName": "The Candidate",
+    "year": 1972,
+    "rating": {
+      "kp": 6.599
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/64f3aec9-841f-498b-bf90-474ede45c31d/600x900"
+    }
+  },
+  {
+    "id": 1330,
+    "name": "Брэнниган",
+    "alternativeName": "Brannigan",
+    "year": 1975,
+    "rating": {
+      "kp": 6.235
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/43bfaa4f-5aac-470c-8da7-e400264074c6/600x900"
+    }
+  },
+  {
+    "id": 1328,
+    "name": "Самый меткий",
+    "alternativeName": "The Shootist",
+    "year": 1976,
+    "rating": {
+      "kp": 6.826
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/59294411-9192-4132-9f1e-3f3152ce2965/600x900"
+    }
+  },
+  {
+    "id": 1329,
+    "name": "Рустер Когберн",
+    "alternativeName": "Rooster Cogburn",
+    "year": 1975,
+    "rating": {
+      "kp": 6.701
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/b6fdc227-2980-4436-a9d0-93c60a8b6ac7/600x900"
+    }
+  },
+  {
+    "id": 1327,
+    "name": "Американское путешествие",
+    "alternativeName": "La classe américaine",
+    "year": 1993,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/06d665e6-023d-40ff-a2a4-ef7b25416a9a/600x900"
+    }
+  },
+  {
+    "id": 1332,
+    "name": "Жестяная звезда",
+    "alternativeName": "Cahill: United States Marshal",
+    "year": 1973,
+    "rating": {
+      "kp": 6.357
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/452caafb-b293-408f-bb80-2cd2002bc1d5/600x900"
+    }
+  },
+  {
+    "id": 1326,
+    "name": "История Джеймса Дина",
+    "alternativeName": "The James Dean Story",
+    "year": 1957,
+    "rating": {
+      "kp": 6.589
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/e879f386-30bf-40cd-81eb-537bf8b0965f/600x900"
+    }
+  },
+  {
+    "id": 1331,
+    "name": "МакКью",
+    "alternativeName": "McQ",
+    "year": 1974,
+    "rating": {
+      "kp": 6.452
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/46dfc37a-58a5-4da3-8fd1-af2b3dafb87e/600x900"
+    }
+  },
+  {
+    "id": 1333,
+    "name": "Грабители поездов",
+    "alternativeName": "The Train Robbers",
+    "year": 1973,
+    "rating": {
+      "kp": 6.429
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/f3f86139-a3f2-4bff-9ed7-7cddc1050624/600x900"
+    }
+  },
+  {
+    "id": 1334,
+    "name": "Ковбои",
+    "alternativeName": "The Cowboys",
+    "year": 1972,
+    "rating": {
+      "kp": 7.21
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/b619d563-7650-41f5-bf13-3e42729f56b0/600x900"
+    }
+  },
+  {
+    "id": 1335,
+    "name": "Большой Джейк",
+    "alternativeName": "Big Jake",
+    "year": 1971,
+    "rating": {
+      "kp": 6.911
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/d728a0f8-cb3f-4e16-a33b-b84c798cdd53/600x900"
+    }
+  },
+  {
+    "id": 1336,
+    "name": "Рио Лобо",
+    "alternativeName": "Rio Lobo",
+    "year": 1970,
+    "rating": {
+      "kp": 6.797
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/01fd43ff-fef6-4de9-9b5b-1741925d2359/600x900"
+    }
+  },
+  {
+    "id": 1337,
+    "name": "Чизам",
+    "alternativeName": "Chisum",
+    "year": 1970,
+    "rating": {
+      "kp": 6.952
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/6a26d1a3-9397-4552-973b-e62a64d3e572/600x900"
+    }
+  },
+  {
+    "id": 1338,
+    "name": "Непобежденные",
+    "alternativeName": "The Undefeated",
+    "year": 1969,
+    "rating": {
+      "kp": 6.761
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/53d5f1ea-36c3-4de2-825b-fb0095ac886c/600x900"
+    }
+  },
+  {
+    "id": 1339,
+    "name": "Настоящее мужество",
+    "alternativeName": "True Grit",
+    "year": 1969,
+    "rating": {
+      "kp": 7.157
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/1ddda4e5-4073-4c96-a802-0dcd5d84a3c0/600x900"
+    }
+  },
+  {
+    "id": 1341,
+    "name": "Зеленые береты",
+    "alternativeName": "The Green Berets",
+    "year": 1968,
+    "rating": {
+      "kp": 5.569
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/375ae0e0-ec10-47aa-b9d3-bacb0ae0031a/600x900"
+    }
+  },
+  {
+    "id": 1345,
+    "name": "Сыновья Кэти Элдер",
+    "alternativeName": "The Sons of Katie Elder",
+    "year": 1965,
+    "rating": {
+      "kp": 6.672
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/856577b3-01d3-4139-b8eb-196c0b6ca271/600x900"
+    }
+  },
+  {
+    "id": 1342,
+    "name": "Эльдорадо",
+    "alternativeName": "El Dorado",
+    "year": 1966,
+    "rating": {
+      "kp": 7.209
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/bb610122-3d12-4c0c-aaac-dc9ddc0ac4ea/600x900"
+    }
+  },
+  {
+    "id": 1343,
+    "name": "Военный фургон",
+    "alternativeName": "The War Wagon",
+    "year": 1967,
+    "rating": {
+      "kp": 6.98
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/5c5de3cf-9cbe-4099-9b6c-a7b16af5600e/600x900"
+    }
+  },
+  {
+    "id": 1344,
+    "name": "Откинь гигантскую тень",
+    "alternativeName": "Cast a Giant Shadow",
+    "year": 1966,
+    "rating": {
+      "kp": 6.271
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/f26b1c6c-b8ba-4334-a163-0c064cd5461a/600x900"
+    }
+  },
+  {
+    "id": 1340,
+    "name": "Адские бойцы",
+    "alternativeName": "Hellfighters",
+    "year": 1968,
+    "rating": {
+      "kp": 6.21
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/46e66a58-8b01-4992-ad11-2ad6501ec0c3/600x900"
+    }
+  },
+  {
+    "id": 1346,
+    "name": "По методу Харма",
+    "alternativeName": "In Harm's Way",
+    "year": 1965,
+    "rating": {
+      "kp": 7.03
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/7c5fc9ec-9930-49b0-9329-9e47badae91a/600x900"
+    }
+  },
+  {
+    "id": 1347,
+    "name": "Величайшая из когда-либо рассказанных историй",
+    "alternativeName": "The Greatest Story Ever Told",
+    "year": 1965,
+    "rating": {
+      "kp": 6.787
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/c7c5841a-5eeb-4612-b000-82d8c5941067/600x900"
+    }
+  },
+  {
+    "id": 1349,
+    "name": "МакЛинток!",
+    "alternativeName": "McLintock!",
+    "year": 1963,
+    "rating": {
+      "kp": 6.586
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/220a2846-181c-40d7-a4b4-643fc4c97946/600x900"
+    }
+  },
+  {
+    "id": 1351,
+    "name": "Самый длинный день",
+    "alternativeName": "The Longest Day",
+    "year": 1962,
+    "rating": {
+      "kp": 7.211
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/79eacff2-9e50-4c7e-9c28-51c39696b0d2/600x900"
+    }
+  },
+  {
+    "id": 1352,
+    "name": "Хатари!",
+    "alternativeName": "Hatari!",
+    "year": 1962,
+    "rating": {
+      "kp": 6.556
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486362/4cdfdecd-59ac-4510-965b-cabfee6ead6e/600x900"
+    }
+  },
+  {
+    "id": 1353,
+    "name": null,
+    "alternativeName": "I 10 del Texas",
+    "year": 1961,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/e77431cc-4d62-4f84-8084-50a16ae58e50/600x900"
+    }
+  },
+  {
+    "id": 1348,
+    "name": "Мир цирка",
+    "alternativeName": "Circus World",
+    "year": 1964,
+    "rating": {
+      "kp": 6.701
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/0ed6e6c5-e37d-4f35-8f6a-e50e4b1d143a/600x900"
+    }
+  },
+  {
+    "id": 1354,
+    "name": "Команчерос",
+    "alternativeName": "The Comancheros",
+    "year": 1961,
+    "rating": {
+      "kp": 6.851
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/4fe7d387-7382-4fb4-a162-52c2b95bb675/600x900"
+    }
+  },
+  {
+    "id": 1360,
+    "name": "Пилот реактивного самолета",
+    "alternativeName": "Jet Pilot",
+    "year": 1957,
+    "rating": {
+      "kp": 5.884
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/4559e473-88d9-4e88-b1b3-d3ecb61d866e/600x900"
+    }
+  },
+  {
+    "id": 1350,
+    "name": "Война на Диком Западе",
+    "alternativeName": "How the West Was Won",
+    "year": 1962,
+    "rating": {
+      "kp": 6.881
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/27773a3b-feef-454b-ba2b-ed351ecbae2d/600x900"
+    }
+  },
+  {
+    "id": 1355,
+    "name": "К северу от Аляски",
+    "alternativeName": "North to Alaska",
+    "year": 1960,
+    "rating": {
+      "kp": 6.895
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/95c49980-ba42-4030-a552-439a48aec728/600x900"
+    }
+  },
+  {
+    "id": 1356,
+    "name": "Аламо",
+    "alternativeName": "The Alamo",
+    "year": 1960,
+    "rating": {
+      "kp": 6.56
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/834f1d2a-269a-48db-8885-f0ada28a3278/600x900"
+    }
+  },
+  {
+    "id": 1358,
+    "name": "Варвар и гейша",
+    "alternativeName": "The Barbarian and the Geisha",
+    "year": 1958,
+    "rating": {
+      "kp": 6.222
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/b4ee455d-1485-410f-bd6b-963eb37a5042/600x900"
+    }
+  },
+  {
+    "id": 1359,
+    "name": "Легенда о потерянном",
+    "alternativeName": "Legend of the Lost",
+    "year": 1957,
+    "rating": {
+      "kp": 6.479
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/b71151a5-a221-48e8-8806-ade7e47ed74a/600x900"
+    }
+  },
+  {
+    "id": 1357,
+    "name": "Кавалеристы",
+    "alternativeName": "The Horse Soldiers",
+    "year": 1959,
+    "rating": {
+      "kp": 6.983
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/5ea9865a-157d-4ca8-9974-8e157474eb57/600x900"
+    }
+  },
+  {
+    "id": 1361,
+    "name": "Завоеватель",
+    "alternativeName": "The Conqueror",
+    "year": 1956,
+    "rating": {
+      "kp": 4.958
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/40949ff6-580b-44d3-b3a6-aa89890038f2/600x900"
+    }
+  },
+  {
+    "id": 1362,
+    "name": "Кровавая аллея",
+    "alternativeName": "Blood Alley",
+    "year": 1955,
+    "rating": {
+      "kp": 5.982
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/6231130a-3276-4a42-a520-ca504d49188b/600x900"
+    }
+  },
+  {
+    "id": 1363,
+    "name": "Морская погоня",
+    "alternativeName": "The Sea Chase",
+    "year": 1955,
+    "rating": {
+      "kp": 6.296
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/8be66f0f-563b-4f4e-812f-8e1623e1cc8f/600x900"
+    }
+  },
+  {
+    "id": 1364,
+    "name": "Великий и могучий",
+    "alternativeName": "The High and the Mighty",
+    "year": 1954,
+    "rating": {
+      "kp": 5.928
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/869ae77a-d5d6-4b1c-9ad7-ba1e889ce6c7/600x900"
+    }
+  },
+  {
+    "id": 1365,
+    "name": "Хондо",
+    "alternativeName": "Hondo",
+    "year": 1953,
+    "rating": {
+      "kp": 7.046
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/2f556d40-7830-4a4c-b531-796a6e975ad5/600x900"
+    }
+  },
+  {
+    "id": 1366,
+    "name": "Небесный остров",
+    "alternativeName": "Island in the Sky",
+    "year": 1953,
+    "rating": {
+      "kp": 6.893
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/a3ac8d9e-3bdf-4b8c-b6b7-ae5e06b8732f/600x900"
+    }
+  },
+  {
+    "id": 1367,
+    "name": "Трудный путь",
+    "alternativeName": "Trouble Along the Way",
+    "year": 1953,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/0b93e937-98ba-4bb8-848e-73a0decf400f/600x900"
+    }
+  },
+  {
+    "id": 1368,
+    "name": "Большой Джим МакЛэйн",
+    "alternativeName": "Big Jim McLain",
+    "year": 1952,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/751c736b-a2f7-4c64-ac08-b68afdd1b1f0/600x900"
+    }
+  },
+  {
+    "id": 1370,
+    "name": "Операция «Пасифик»",
+    "alternativeName": "Operation Pacific",
+    "year": 1951,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1777765/58dd30cf-b4ee-4871-bfda-40c85de03494/600x900"
+    }
+  },
+  {
+    "id": 1371,
+    "name": "Рио Гранде",
+    "alternativeName": "Rio Grande",
+    "year": 1950,
+    "rating": {
+      "kp": 6.771
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/9289aef1-f827-4406-886c-de48c65980e7/600x900"
+    }
+  },
+  {
+    "id": 1372,
+    "name": "Пески Иводзимы",
+    "alternativeName": "Sands of Iwo Jima",
+    "year": 1949,
+    "rating": {
+      "kp": 6.493
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/3e1fd39c-02c5-4206-984b-f9c44ba46441/600x900"
+    }
+  },
+  {
+    "id": 1374,
+    "name": null,
+    "alternativeName": "Laramie",
+    "year": 1949,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/03c169dd-a67c-4bcb-a2b5-891644949d64/600x900"
+    }
+  },
+  {
+    "id": 1369,
+    "name": "Горящий полет",
+    "alternativeName": "Flying Leathernecks",
+    "year": 1951,
+    "rating": {
+      "kp": 6.369
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/16e6bc3e-a1dd-45c3-ac66-3129334fcf10/600x900"
+    }
+  },
+  {
+    "id": 1378,
+    "name": null,
+    "alternativeName": "Desert Command",
+    "year": 1946,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10592371/b31d46c8-ae50-4700-9d78-4766b251e7a4/600x900"
+    }
+  },
+  {
+    "id": 1376,
+    "name": "Магнат",
+    "alternativeName": "Tycoon",
+    "year": 1947,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/56f0f548-7cda-449e-98a5-9784900c719d/600x900"
+    }
+  },
+  {
+    "id": 1377,
+    "name": "Ангел и негодяй",
+    "alternativeName": "Angel and the Badman",
+    "year": 1947,
+    "rating": {
+      "kp": 6.582
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486454/ba8e0504-cdf3-4b6c-8d91-d7ff6102a6fe/600x900"
+    }
+  },
+  {
+    "id": 1380,
+    "name": "Они были незаменимыми",
+    "alternativeName": "They Were Expendable",
+    "year": 1945,
+    "rating": {
+      "kp": 6.274
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/313407e2-0b35-4fc3-ab42-3affdbc6ddca/600x900"
+    }
+  },
+  {
+    "id": 1382,
+    "name": "Сердце побережья Бэрбери",
+    "alternativeName": "Flame of Barbary Coast",
+    "year": 1945,
+    "rating": {
+      "kp": 6.349
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/621ac1f7-9158-45a8-a5b9-6763c84740ad/600x900"
+    }
+  },
+  {
+    "id": 1384,
+    "name": "На линии огня",
+    "alternativeName": "The Fighting Seabees",
+    "year": 1944,
+    "rating": {
+      "kp": 6.241
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/1a08b719-3e3f-4b31-b296-2139b488c3b9/600x900"
+    }
+  },
+  {
+    "id": 1386,
+    "name": "Она решает рискнуть",
+    "alternativeName": "A Lady Takes a Chance",
+    "year": 1943,
+    "rating": {
+      "kp": 6.317
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/80df47ac-9009-4ad9-ae69-b3b594d945d5/600x900"
+    }
+  },
+  {
+    "id": 1385,
+    "name": "В старой Оклахоме",
+    "alternativeName": "In Old Oklahoma",
+    "year": 1943,
+    "rating": {
+      "kp": 6.367
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/f42b0fd2-fdd7-4a75-8a80-231943f5e1c8/600x900"
+    }
+  },
+  {
+    "id": 1387,
+    "name": "Снова вместе в Париже",
+    "alternativeName": "Reunion in France",
+    "year": 1942,
+    "rating": {
+      "kp": 6.78
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4774061/4eb27c9b-e71f-4777-871a-6d039be4a4f6/600x900"
+    }
+  },
+  {
+    "id": 1388,
+    "name": "Питтсбург",
+    "alternativeName": "Pittsburgh",
+    "year": 1942,
+    "rating": {
+      "kp": 6.118
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/570a3194-f907-4a1d-9fac-f9d21863312c/600x900"
+    }
+  },
+  {
+    "id": 1389,
+    "name": "Летающие тигры",
+    "alternativeName": "Flying Tigers",
+    "year": 1942,
+    "rating": {
+      "kp": 6.203
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/4f09ae14-e6a7-41d0-a7a0-43473769757c/600x900"
+    }
+  },
+  {
+    "id": 1390,
+    "name": "В старой Калифорнии",
+    "alternativeName": "In Old California",
+    "year": 1942,
+    "rating": {
+      "kp": 6.505
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/e2d5f291-ff69-48b0-9a9b-bfe1306db52d/600x900"
+    }
+  },
+  {
+    "id": 1392,
+    "name": "Пожнешь бурю",
+    "alternativeName": "Reap the Wild Wind",
+    "year": 1942,
+    "rating": {
+      "kp": 6.485
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1600647/7746441b-341f-48f9-aa57-8045b042eaf2/600x900"
+    }
+  },
+  {
+    "id": 1394,
+    "name": "Ковбой с холмов",
+    "alternativeName": "The Shepherd of the Hills",
+    "year": 1941,
+    "rating": {
+      "kp": 6.558
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/e85db455-1209-499b-afac-1c4245e5399f/600x900"
+    }
+  },
+  {
+    "id": 1395,
+    "name": "Леди из Луизианы",
+    "alternativeName": "Lady from Louisiana",
+    "year": 1941,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/dd913c58-8a2d-4d68-ab7d-67af8dc110b0/600x900"
+    }
+  },
+  {
+    "id": 1396,
+    "name": "Человек, которого предали",
+    "alternativeName": "A Man Betrayed",
+    "year": 1941,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/62d71d7b-558b-4399-8ae5-f63db18c2618/600x900"
+    }
+  },
+  {
+    "id": 1375,
+    "name": "Найти «Красную ведьму»",
+    "alternativeName": "Wake of the Red Witch",
+    "year": 1948,
+    "rating": {
+      "kp": 6.299
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/25390c3b-1a82-4394-850d-9f92406cbaa7/600x900"
+    }
+  },
+  {
+    "id": 1397,
+    "name": "Семь грешников",
+    "alternativeName": "Seven Sinners",
+    "year": 1940,
+    "rating": {
+      "kp": 7.017
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/41165957-002a-4cb9-b3b0-aaafbdb8e126/600x900"
+    }
+  },
+  {
+    "id": 1373,
+    "name": "Она носила желтую ленту",
+    "alternativeName": "She Wore a Yellow Ribbon",
+    "year": 1949,
+    "rating": {
+      "kp": 6.652
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/971d75f1-2968-427f-93b8-75a632339597/600x900"
+    }
+  },
+  {
+    "id": 1379,
+    "name": "Дакота",
+    "alternativeName": "Dakota",
+    "year": 1945,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10835644/5a940c18-fd27-45e3-9a88-852aba041052/600x900"
+    }
+  },
+  {
+    "id": 1398,
+    "name": "Долгий путь домой",
+    "alternativeName": "The Long Voyage Home",
+    "year": 1940,
+    "rating": {
+      "kp": 6.345
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/8f2636b5-0bc3-4690-9895-f5b72a5f7f35/600x900"
+    }
+  },
+  {
+    "id": 1399,
+    "name": "Обращение на запад",
+    "alternativeName": "Three Faces West",
+    "year": 1940,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/bfd14c77-672b-4c75-a121-5de18479babc/600x900"
+    }
+  },
+  {
+    "id": 1381,
+    "name": "Возвращение на Батаан",
+    "alternativeName": "Back to Bataan",
+    "year": 1945,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/382e1b46-d911-4539-98c8-b4e0099f64d5/600x900"
+    }
+  },
+  {
+    "id": 1400,
+    "name": "Зов крови",
+    "alternativeName": "Dark Command",
+    "year": 1940,
+    "rating": {
+      "kp": 6.429
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10893610/ec6b901a-debb-442b-ba8f-2d397998f7bc/600x900"
+    }
+  },
+  {
+    "id": 1383,
+    "name": "В седле",
+    "alternativeName": "Tall in the Saddle",
+    "year": 1944,
+    "rating": {
+      "kp": 7.073
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/761f2255-9893-4d10-a079-de7277181d68/600x900"
+    }
+  },
+  {
+    "id": 1391,
+    "name": "Негодяи",
+    "alternativeName": "The Spoilers",
+    "year": 1942,
+    "rating": {
+      "kp": 6.625
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/94f626fa-ff33-48d4-916c-96c7d69e8bcc/600x900"
+    }
+  },
+  {
+    "id": 1393,
+    "name": "Леди на ночь",
+    "alternativeName": "Lady for a Night",
+    "year": 1942,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/01fcc57a-b2eb-435d-b500-e4e27a7694ea/600x900"
+    }
+  },
+  {
+    "id": 1401,
+    "name": "Восстание в Аллеганах",
+    "alternativeName": "Allegheny Uprising",
+    "year": 1939,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/c2ddb811-304c-4883-88c9-a2b34ac3c17e/600x900"
+    }
+  },
+  {
+    "id": 1402,
+    "name": "Пограничный горизонт",
+    "alternativeName": "New Frontier",
+    "year": 1939,
+    "rating": {
+      "kp": 5.758
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/e963c161-78af-4d51-95fa-759ec2672b1d/600x900"
+    }
+  },
+  {
+    "id": 1403,
+    "name": "Бандит из Вайоминга",
+    "alternativeName": "Wyoming Outlaw",
+    "year": 1939,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/adca22ec-a68f-4b1f-85aa-bbae804f52b4/600x900"
+    }
+  },
+  {
+    "id": 1408,
+    "name": "Грабители дилижансов",
+    "alternativeName": "Overland Stage Raiders",
+    "year": 1938,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/4f98d2fa-46cf-4404-a243-ec0aafbe2318/600x900"
+    }
+  },
+  {
+    "id": 1410,
+    "name": "Адский городок",
+    "alternativeName": "Born to the West",
+    "year": 1937,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/e17eb268-e6ac-4771-979c-7305ef40b49c/600x900"
+    }
+  },
+  {
+    "id": 1404,
+    "name": "Три техасских наездника",
+    "alternativeName": "Three Texas Steers",
+    "year": 1939,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/df0040f0-32de-4070-a02b-f79e258c4192/600x900"
+    }
+  },
+  {
+    "id": 1406,
+    "name": "Ранчо Красной реки",
+    "alternativeName": "Red River Range",
+    "year": 1938,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/994417dd-39d7-4c4e-bd07-f7274fe8e8ce/600x900"
+    }
+  },
+  {
+    "id": 1407,
+    "name": "Паническое бегство из Санта-Фе",
+    "alternativeName": "Santa Fe Stampede",
+    "year": 1938,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4486362/95f0a95b-eb32-423c-9264-99822469701f/600x900"
+    }
+  },
+  {
+    "id": 1409,
+    "name": "В одном седле",
+    "alternativeName": "Pals of the Saddle",
+    "year": 1938,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/d3cfd9ed-859d-49da-8c58-d9267b446228/600x900"
+    }
+  },
+  {
+    "id": 1413,
+    "name": "Я снимаю войну",
+    "alternativeName": "I Cover the War!",
+    "year": 1937,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/3241bb76-9553-4e02-b3aa-75adaa31bfee/600x900"
+    }
+  },
+  {
+    "id": 1415,
+    "name": "Конфликт",
+    "alternativeName": "Conflict",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/9d9cadec-71fd-4a68-a50f-21440517c5aa/600x900"
+    }
+  },
+  {
+    "id": 1405,
+    "name": "Ночные всадники",
+    "alternativeName": "The Night Riders",
+    "year": 1939,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/2079053b-6171-4cab-b52d-9ab6dc0f8e5e/600x900"
+    }
+  },
+  {
+    "id": 1411,
+    "name": "Конец приключения",
+    "alternativeName": "Adventure's End",
+    "year": 1937,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/2bd82452-08c9-4ed7-a4e6-8c7e91ca338c/600x900"
+    }
+  },
+  {
+    "id": 1412,
+    "name": "Кумир толпы",
+    "alternativeName": "Idol of the Crowds",
+    "year": 1937,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/d5a50f87-51f8-47bb-b20a-cff06e79055b/600x900"
+    }
+  },
+  {
+    "id": 1414,
+    "name": "Калифорния прямо впереди",
+    "alternativeName": "California Straight Ahead!",
+    "year": 1937,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/f8e7e247-6a4f-45dd-9518-fb1349c92f2c/600x900"
+    }
+  },
+  {
+    "id": 1416,
+    "name": "Морские преступники",
+    "alternativeName": "Sea Spoilers",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/11eabae4-5b45-40eb-8703-676261348c91/600x900"
+    }
+  },
+  {
+    "id": 1417,
+    "name": "Ветры пустыни",
+    "alternativeName": "Winds of the Wasteland",
+    "year": 1936,
+    "rating": {
+      "kp": 6.511
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/6201401/3abff216-9d2f-4a3a-a02f-012950a943b5/600x900"
+    }
+  },
+  {
+    "id": 1418,
+    "name": "Одинокая тропа",
+    "alternativeName": "The Lonely Trail",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/4bb48c58-8b94-43b9-97bd-f0453081e416/600x900"
+    }
+  },
+  {
+    "id": 1420,
+    "name": "Беззаконные девяностые",
+    "alternativeName": "The Lawless Nineties",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/f6566e50-8abc-469b-90ba-01f258d56884/600x900"
+    }
+  },
+  {
+    "id": 1419,
+    "name": "Король реки Пекос",
+    "alternativeName": "King of the Pecos",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/59eebe93-cd68-4947-9525-8c459e9a3fb7/600x900"
+    }
+  },
+  {
+    "id": 1425,
+    "name": "Райский каньон",
+    "alternativeName": "Paradise Canyon",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/7b4970dd-2bac-4a2d-aab5-e49dc738c9e6/600x900"
+    }
+  },
+  {
+    "id": 1421,
+    "name": "Орегонская тропа",
+    "alternativeName": "The Oregon Trail",
+    "year": 1936,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/0252ba4b-799d-477a-88c2-466179e0450a/600x900"
+    }
+  },
+  {
+    "id": 1426,
+    "name": "Всадник приехавший на рассвете",
+    "alternativeName": "The Dawn Rider",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/2caeab2e-9c91-439f-a15b-52089b58bb0f/600x900"
+    }
+  },
+  {
+    "id": 1422,
+    "name": "Состязание без правил",
+    "alternativeName": "Lawless Range",
+    "year": 1935,
+    "rating": {
+      "kp": 5.843
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/2a96f6c6-f30d-45f3-be6e-ce13a51f81a6/600x900"
+    }
+  },
+  {
+    "id": 1423,
+    "name": "Новая граница",
+    "alternativeName": "The New Frontier",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/191444ed-333e-4822-aee3-3ffa44165fb8/600x900"
+    }
+  },
+  {
+    "id": 1424,
+    "name": "Вперед на запад",
+    "alternativeName": "Westward Ho",
+    "year": 1935,
+    "rating": {
+      "kp": 6.356
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10809116/e0f27412-839b-41fb-a7df-5b645ddd7d43/600x900"
+    }
+  },
+  {
+    "id": 1427,
+    "name": "Тропа в пустыне",
+    "alternativeName": "The Desert Trail",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/e647eb30-abdc-4a72-bb3a-7dd820758e3f/600x900"
+    }
+  },
+  {
+    "id": 1428,
+    "name": "Радужная долина",
+    "alternativeName": "Rainbow Valley",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/28af3559-93da-4cea-a7b2-d01cfb9286c0/600x900"
+    }
+  },
+  {
+    "id": 1429,
+    "name": "Техасский террор",
+    "alternativeName": "Texas Terror",
+    "year": 1935,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/b76e8ab7-42af-4fc6-a64d-872e1487d848/600x900"
+    }
+  },
+  {
+    "id": 1430,
+    "name": "Под небом Аризоны",
+    "alternativeName": "'Neath the Arizona Skies",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/e7789f67-63fe-45de-b251-d99175eb3f6d/600x900"
+    }
+  },
+  {
+    "id": 1431,
+    "name": "Граница без закона",
+    "alternativeName": "The Lawless Frontier",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/1da57fc6-5469-4a39-a613-52ab34f39939/600x900"
+    }
+  },
+  {
+    "id": 1432,
+    "name": "Сторонняя тропа",
+    "alternativeName": "The Trail Beyond",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/37d2ab17-d0b3-410a-9f71-b12c0c2eae8d/600x900"
+    }
+  },
+  {
+    "id": 1433,
+    "name": "Звезда Пакер",
+    "alternativeName": "The Star Packer",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/5a417c33-14aa-41f1-90be-3c6774ab2429/600x900"
+    }
+  },
+  {
+    "id": 1434,
+    "name": "Одинокий всадник Рэнди",
+    "alternativeName": "Randy Rides Alone",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/ae8b1a99-9f51-456a-89c8-f09d5c1395d8/600x900"
+    }
+  },
+  {
+    "id": 1436,
+    "name": "Голубая сталь",
+    "alternativeName": "Blue Steel",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/b46e4a83-96f1-4004-a69d-113c3c5c1f5d/600x900"
+    }
+  },
+  {
+    "id": 1435,
+    "name": "Человек из Юты",
+    "alternativeName": "The Man from Utah",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/74ec66f6-b28f-4680-aace-91dd4e2c8260/600x900"
+    }
+  },
+  {
+    "id": 1437,
+    "name": "Западная граница",
+    "alternativeName": "West of the Divide",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/e56fc971-78f6-4a9e-9349-ec3bce76ca88/600x900"
+    }
+  },
+  {
+    "id": 1438,
+    "name": "Везучий техасец",
+    "alternativeName": "The Lucky Texan",
+    "year": 1934,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/a88b55f2-4950-4211-be3e-c1ed1a375e8d/600x900"
+    }
+  },
+  {
+    "id": 1443,
+    "name": "Мордашка",
+    "alternativeName": "Baby Face",
+    "year": 1933,
+    "rating": {
+      "kp": 7.06
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/35c88c40-3e81-4824-b977-1dd722a37a28/600x900"
+    }
+  },
+  {
+    "id": 1440,
+    "name": null,
+    "alternativeName": "College Coach",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/f5255cbf-4fd8-4b28-9f24-06840fb6f5a0/600x900"
+    }
+  },
+  {
+    "id": 1446,
+    "name": "Где-то в Соноре",
+    "alternativeName": "Somewhere in Sonora",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/39ef8b8d-dad8-4485-a39d-6b03910e9022/600x900"
+    }
+  },
+  {
+    "id": 1439,
+    "name": "След в полыни",
+    "alternativeName": "Sagebrush Trail",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1900788/31fe567d-8bdd-4b3b-866e-748e431b328b/600x900"
+    }
+  },
+  {
+    "id": 1441,
+    "name": "Наездники судьбы",
+    "alternativeName": "Riders of Destiny",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/3d985e29-78af-4168-b722-e891f3285b37/600x900"
+    }
+  },
+  {
+    "id": 1445,
+    "name": "Его личный секретарь",
+    "alternativeName": "His Private Secretary",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/8aedcca9-65ef-4b77-b7a9-245b04c54e32/600x900"
+    }
+  },
+  {
+    "id": 1444,
+    "name": "Жизнь Джимми Долана",
+    "alternativeName": "The Life of Jimmy Dolan",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/72a54889-5fe8-4d7a-931d-e30bc9fb4ded/600x900"
+    }
+  },
+  {
+    "id": 1442,
+    "name": "Человек из Монтерея",
+    "alternativeName": "The Man from Monterey",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/0caa7543-efa7-47f8-9fab-499878a3938b/600x900"
+    }
+  },
+  {
+    "id": 1447,
+    "name": "Центральный аэропорт",
+    "alternativeName": "Central Airport",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/c7770976-31b7-45ee-a4b1-b9448b7876df/600x900"
+    }
+  },
+  {
+    "id": 1448,
+    "name": "Три мушкетёра",
+    "alternativeName": "The Three Musketeers",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/59c3ebd3-8f0d-4315-9e0d-d93cc57e09c2/600x900"
+    }
+  },
+  {
+    "id": 1449,
+    "name": "Телеграф",
+    "alternativeName": "The Telegraph Trail",
+    "year": 1933,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/f2d18ac5-aaf8-47f9-b312-d98e1972dda3/600x900"
+    }
+  },
+  {
+    "id": 1450,
+    "name": "Заколдованное золото",
+    "alternativeName": "Haunted Gold",
+    "year": 1932,
+    "rating": {
+      "kp": 5.767
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/9c1d60b8-5598-4a42-bb0a-e5e0f3f7d11a/600x900"
+    }
+  },
+  {
+    "id": 1451,
+    "name": "Большая паника",
+    "alternativeName": "The Big Stampede",
+    "year": 1932,
+    "rating": {
+      "kp": 6.145
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/59dbd409-e355-4bbe-812a-f9ea04b5e867/600x900"
+    }
+  },
+  {
+    "id": 1452,
+    "name": "Оседлай его, ковбой",
+    "alternativeName": "Ride Him, Cowboy",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/da21f808-23ef-4346-b7e5-e2e49656c2c4/600x900"
+    }
+  },
+  {
+    "id": 1453,
+    "name": null,
+    "alternativeName": "The Hollywood Handicap",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1454,
+    "name": "Поезд едет сквозь ураган",
+    "alternativeName": "The Hurricane Express",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/d44f6d09-85e2-4972-ab3a-f8124bd31bb1/600x900"
+    }
+  },
+  {
+    "id": 1456,
+    "name": "Закон с двумя кулаками",
+    "alternativeName": "Two-Fisted Law",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/608e220a-42c4-4b15-b50a-fde56cd19553/600x900"
+    }
+  },
+  {
+    "id": 1455,
+    "name": "Леди и джентльмен",
+    "alternativeName": "Lady and Gent",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/4483445/95b08110-185e-42a3-93fd-76f173d5fda8/600x900"
+    }
+  },
+  {
+    "id": 1462,
+    "name": "Обманщик",
+    "alternativeName": "The Deceiver",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1459,
+    "name": null,
+    "alternativeName": "The Voice of Hollywood No. 13 (Second Series)",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1457,
+    "name": "Техасский циклон",
+    "alternativeName": "Texas Cyclone",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/2a44a592-373f-424a-9f4c-9242d6326911/600x900"
+    }
+  },
+  {
+    "id": 1458,
+    "name": "Тень орла",
+    "alternativeName": "The Shadow of the Eagle",
+    "year": 1932,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/5b7bb38d-06f4-4a25-b61c-a010c4177d39/600x900"
+    }
+  },
+  {
+    "id": 1461,
+    "name": "Распря на ранчо",
+    "alternativeName": "The Range Feud",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/d96c6bd7-15e6-4f7d-870f-fff34e9e0949/600x900"
+    }
+  },
+  {
+    "id": 1460,
+    "name": "Воспитатель настоящих мужчин",
+    "alternativeName": "Maker of Men",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1464,
+    "name": "Три девушки потерялись",
+    "alternativeName": "Three Girls Lost",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/d946c88f-f8c8-44d1-8531-bf31ab3c2346/600x900"
+    }
+  },
+  {
+    "id": 1463,
+    "name": "Аризона",
+    "alternativeName": "Arizona",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10592371/eed11535-a8b2-4457-9f41-88284c5ecb84/600x900"
+    }
+  },
+  {
+    "id": 1465,
+    "name": "Девушки требуют восхищения",
+    "alternativeName": "Girls Demand Excitement",
+    "year": 1931,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/0dbfad56-74bb-4f76-a65a-8326f3336f0e/600x900"
+    }
+  },
+  {
+    "id": 1468,
+    "name": null,
+    "alternativeName": "Rough Romance",
+    "year": 1930,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/5f43cafd-7297-4b76-a2fd-0fb3e01de24d/600x900"
+    }
+  },
+  {
+    "id": 1466,
+    "name": "Большая слежка",
+    "alternativeName": "The Big Trail",
+    "year": 1930,
+    "rating": {
+      "kp": 6.978
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1946459/17b92e5c-cc0c-48c3-a26b-0e58ca4f46bb/600x900"
+    }
+  },
+  {
+    "id": 1467,
+    "name": null,
+    "alternativeName": "Cheer Up and Smile",
+    "year": 1930,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/a1fb3107-6f5e-49f3-a8eb-a462a5361d5e/600x900"
+    }
+  },
+  {
+    "id": 1469,
+    "name": null,
+    "alternativeName": "Born Reckless",
+    "year": 1930,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/3f77536f-2eb5-4a17-ba76-cd4200293684/600x900"
+    }
+  },
+  {
+    "id": 1470,
+    "name": "Мужчины без женщин",
+    "alternativeName": "Men Without Women",
+    "year": 1930,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/64ae5b43-df80-4911-b969-5b5a7cb3e6b3/600x900"
+    }
+  },
+  {
+    "id": 1472,
+    "name": "Салют",
+    "alternativeName": "Salute",
+    "year": 1929,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/b095fef6-c33c-49ad-a967-d7550bb8cfcc/600x900"
+    }
+  },
+  {
+    "id": 1471,
+    "name": null,
+    "alternativeName": "The Forward Pass",
+    "year": 1929,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/99763da8-77f2-4f22-b4be-d21db4f05ec5/600x900"
+    }
+  },
+  {
+    "id": 1473,
+    "name": "Слова и музыка",
+    "alternativeName": "Words and Music",
+    "year": 1929,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/424e10c8-20ce-41ab-8dcd-61c52a1ca5f5/600x900"
+    }
+  },
+  {
+    "id": 1474,
+    "name": "Ноев ковчег",
+    "alternativeName": "Noah's Ark",
+    "year": 1928,
+    "rating": {
+      "kp": 6.259
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/bdbc68d7-5a92-4066-9f02-9cca471bf4a2/600x900"
+    }
+  },
+  {
+    "id": 1478,
+    "name": "Четверо сыновей",
+    "alternativeName": "Four Sons",
+    "year": 1928,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/48bbe9b5-53e9-44a1-9c62-8a2bbe18b53f/600x900"
+    }
+  },
+  {
+    "id": 1475,
+    "name": "Чёрный дозор",
+    "alternativeName": "The Black Watch",
+    "year": 1929,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/640c69ba-d702-4c02-beab-2649862ff82c/600x900"
+    }
+  },
+  {
+    "id": 1479,
+    "name": "Матушка Мэкри",
+    "alternativeName": "Mother Machree",
+    "year": 1927,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/aada1a95-64ae-40ce-86fd-b7070b738d7c/600x900"
+    }
+  },
+  {
+    "id": 1477,
+    "name": "Дом палача",
+    "alternativeName": "Hangman's House",
+    "year": 1928,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/1198427b-1ea5-40fa-ab62-0f5f04ae4bfb/600x900"
+    }
+  },
+  {
+    "id": 1476,
+    "name": null,
+    "alternativeName": "Speakeasy",
+    "year": 1929,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/8042ccd8-dee1-4820-87f8-58462c5eb6c0/600x900"
+    }
+  },
+  {
+    "id": 1480,
+    "name": "Дроп-кик",
+    "alternativeName": "The Drop Kick",
+    "year": 1927,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/7165fc8b-7eba-439e-92ad-76c50053178b/600x900"
+    }
+  },
+  {
+    "id": 1482,
+    "name": "Великое ограбление поезда K & A",
+    "alternativeName": "The Great K & A Train Robbery",
+    "year": 1926,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/31780ba1-ff93-45fc-a067-d8360eb80d1d/600x900"
+    }
+  },
+  {
+    "id": 1481,
+    "name": "Энни Лори",
+    "alternativeName": "Annie Laurie",
+    "year": 1927,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/8d16e95f-7332-4e2c-8f6d-2704b8ea264e/600x900"
+    }
+  },
+  {
+    "id": 1483,
+    "name": "Барделис Великолепный",
+    "alternativeName": "Bardelys the Magnificent",
+    "year": 1926,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/adcd4d8b-8def-482e-9dd1-5587aaa9d5ec/600x900"
+    }
+  },
+  {
+    "id": 1484,
+    "name": "Западный эскорт",
+    "alternativeName": "Escort West",
+    "year": 1959,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/110cd4a7-6164-42a2-9309-5fb49039f06a/600x900"
+    }
+  },
+  {
+    "id": 1487,
+    "name": null,
+    "alternativeName": "Gun the Man Down",
+    "year": 1956,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10835644/8d2715d7-0a08-4415-97be-bca1f100d107/600x900"
+    }
+  },
+  {
+    "id": 1488,
+    "name": "Семь человек с этого момента",
+    "alternativeName": "7 Men from Now",
+    "year": 1956,
+    "rating": {
+      "kp": 6.696
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/f0ff569e-addd-478f-ad5e-c57c11e743b4/600x900"
+    }
+  },
+  {
+    "id": 1491,
+    "name": "Кольцо страха",
+    "alternativeName": "Ring of Fear",
+    "year": 1954,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/266e5e78-91e9-445b-b842-ee6356f760ae/600x900"
+    }
+  },
+  {
+    "id": 1493,
+    "name": "Тореадор и Леди",
+    "alternativeName": "Bullfighter and the Lady",
+    "year": 1951,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/2b1c14e6-a47c-44c2-87a9-06fa6a00e9b0/600x900"
+    }
+  },
+  {
+    "id": 1494,
+    "name": null,
+    "alternativeName": "The Dangerous Stranger",
+    "year": 1950,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/36694938-2849-4740-be6b-5503eb0a22d4/600x900"
+    }
+  },
+  {
+    "id": 1497,
+    "name": null,
+    "alternativeName": "Screen Snapshots Series 21, No. 2",
+    "year": 1941,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": null
+    }
+  },
+  {
+    "id": 1496,
+    "name": "Поставлено Джоном Фордом",
+    "alternativeName": "Directed by John Ford",
+    "year": 1971,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/d1014c71-e92b-48dd-bf84-014ea1f30a50/600x900"
+    }
+  },
+  {
+    "id": 1498,
+    "name": "Саратога",
+    "alternativeName": "Saratoga",
+    "year": 1937,
+    "rating": {
+      "kp": 6.918
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/a8d5cc0b-6bd6-4d91-b47d-229a7d4fee5c/600x900"
+    }
+  },
+  {
+    "id": 1499,
+    "name": "Личная собственность",
+    "alternativeName": "Personal Property",
+    "year": 1937,
+    "rating": {
+      "kp": 7.212
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/ab37652f-05d1-41ae-8db0-df62825e074a/600x900"
+    }
+  },
+  {
+    "id": 1500,
+    "name": "Оклеветанная",
+    "alternativeName": "Libeled Lady",
+    "year": 1936,
+    "rating": {
+      "kp": 7.089
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/a2021384-4df0-46f5-88eb-2cd2f3c23029/600x900"
+    }
+  },
+  {
+    "id": 1501,
+    "name": "Жена против секретарши",
+    "alternativeName": "Wife vs. Secretary",
+    "year": 1936,
+    "rating": {
+      "kp": 7.309
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/296ef800-4122-476a-8d19-a667a4aed96a/600x900"
+    }
+  },
+  {
+    "id": 1485,
+    "name": "Китайская кукла",
+    "alternativeName": "China Doll",
+    "year": 1958,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1704946/fc50d013-b8c1-462a-ad94-adcbf70191bd/600x900"
+    }
+  },
+  {
+    "id": 1503,
+    "name": "Моря Китая",
+    "alternativeName": "China Seas",
+    "year": 1935,
+    "rating": {
+      "kp": 6.813
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/3d7e1ef0-09c2-4eb7-ad47-643113d27cb7/600x900"
+    }
+  },
+  {
+    "id": 1502,
+    "name": "Сброд",
+    "alternativeName": "Riffraff",
+    "year": 1936,
+    "rating": {
+      "kp": 6.32
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1629390/3f0d1b88-5a92-4583-b2b8-1477a624476d/600x900"
+    }
+  },
+  {
+    "id": 1486,
+    "name": "Человек в хранилище",
+    "alternativeName": "Man in the Vault",
+    "year": 1956,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/9784475/67cc47bb-3799-49e7-8d12-93303cdfa7f9/600x900"
+    }
+  },
+  {
+    "id": 1489,
+    "name": "До свидания, моя леди",
+    "alternativeName": "Good-bye, My Lady",
+    "year": 1956,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1773646/d279b6fd-10d4-4e9a-a9ff-459f9f29b86b/600x900"
+    }
+  },
+  {
+    "id": 1492,
+    "name": "Грабёж под солнцем",
+    "alternativeName": "Plunder of the Sun",
+    "year": 1953,
+    "rating": {
+      "kp": 0
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1599028/956c584d-b65a-4b91-bfc7-81dd2ab0e43c/600x900"
+    }
+  },
+  {
+    "id": 1490,
+    "name": "След кота",
+    "alternativeName": "Track of the Cat",
+    "year": 1954,
+    "rating": {
+      "kp": 6.336
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/1898899/d61b45e3-20ff-420d-946d-62670acdf817/600x900"
+    }
+  }
+]
